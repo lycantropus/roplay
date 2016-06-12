@@ -1,14 +1,22 @@
 package controllers;
 
 
+import java.io.File;
+//import java.sql.Blob;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 
 
+//import com.feth.play.module.pa.controllers.routes;
+import helper.datasources.MorphiaObject;
+import models.Ro;
 import models.User;
 
+import org.mongodb.morphia.query.Query;
 import play.Routes;
 
+import play.api.mvc.MultipartFormData;
 import play.data.Form;
 
 import play.mvc.*;
@@ -26,6 +34,7 @@ import be.objectify.deadbolt.java.actions.Restrict;
 import com.feth.play.module.pa.PlayAuthenticate;
 import com.feth.play.module.pa.providers.password.UsernamePasswordAuthProvider;
 import com.feth.play.module.pa.user.AuthUser;
+
 
 
 public class Application extends Controller {
@@ -47,7 +56,10 @@ public class Application extends Controller {
 	@Restrict(@Group(Application.USER_ROLE))
 	public static Result restricted() {
 		final User localUser = getLocalUser(session());
-		return ok(restricted.render(localUser));
+
+		final Query<Ro> query = MorphiaObject.datastore.createQuery(Ro.class);
+		final List<Ro> ros = query.asList();
+		return ok(restricted.render(localUser, ros));
 	}
 
 	@Restrict(@Group(Application.USER_ROLE))
@@ -57,6 +69,15 @@ public class Application extends Controller {
 	}
 
 	public static Result login() {
+
+		Ro research = new Ro();
+		User user = getLocalUser(session());
+
+		research.setName("teste");
+		research.setOwner(user);
+
+		MorphiaObject.datastore.save(research);
+
 		return ok(login.render(MyUsernamePasswordAuthProvider.LOGIN_FORM));
 	}
 
@@ -68,7 +89,9 @@ public class Application extends Controller {
 			// User did not fill everything properly
 			return badRequest(login.render(filledForm));
 		} else {
-			// Everything was filled
+
+
+
 			return UsernamePasswordAuthProvider.handleLogin(ctx());
 		}
 	}
@@ -96,13 +119,27 @@ public class Application extends Controller {
 			// do something with your part of the form before handling the user
 			// signup
 
-			//TODO CRIAR AQUI A COLLECTION DO USER NO MONGO
+
 			return UsernamePasswordAuthProvider.handleSignup(ctx());
 		}
 	}
 
 	public static String formatTimestamp(final long t) {
 		return new SimpleDateFormat("yyyy-dd-MM HH:mm:ss").format(new Date(t));
+	}
+
+	public static Result upload() {
+		Http.MultipartFormData body = request().body().asMultipartFormData();
+		Http.MultipartFormData.FilePart picture = body.getFile("picture");
+		if (picture != null) {
+			String fileName = picture.getFilename();
+			String contentType = picture.getContentType();
+			File file = picture.getFile();
+			return ok("File uploaded");
+		} else {
+			flash("error", "Missing file");
+			return badRequest();
+		}
 	}
 
 

@@ -1,6 +1,6 @@
 // @SOURCE:D:/roplay/ro/conf/routes
-// @HASH:bc65ca1a9ce272a3ceddf51f6fe8d668d53ec18f
-// @DATE:Sun Jun 12 03:17:16 BST 2016
+// @HASH:67282cd251cc79f357d8b8a9afaf3d26a9f66e32
+// @DATE:Sun Jun 12 08:26:19 BST 2016
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._

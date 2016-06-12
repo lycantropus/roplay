@@ -1,4 +1,7 @@
-@(localUser: models.User = null)
+@(localUser: models.User, roList: List[models.Ro])
+
+@import helper._
+@import helper.twitterBootstrap._
 
 @main(Messages("playauthenticate.navigation.restricted"), "restricted") {
     
@@ -6,25 +9,72 @@
     <p>
         @Messages("playauthenticate.restricted.secrets")
     </p>
-        <div id="file-uploader">
-            <noscript>
-                <p>Please enable JavaScript to use file uploader.</p>
-                    <!-- or put a simple form for upload here -->
-            </noscript>
 
-            <script>
-            function createUploader(){
-                var uploader = new qq.FileUploader({
-                    element: document.getElementById('file-uploader'),
-                    action: '/upload',
-                    debug: true
-                });
-            }
+    <table class="table" style="width:50%">
+        <thead>
+            <tr>
+                <th>User</th>
+                <th>Ro Name</th>
+                <th>Ro Owner</th>
+            </tr>
+        </thead>
 
-            // in your app create uploader as soon as the DOM is ready
-            // don't wait for the window to load
-            window.onload = createUploader;
-        </script>
+    <td>@localUser.getIdentifier</td>
+
+    @for(ro<-roList){
+            <td>@ro.getName</td>
+            <td>@ro.getOwner</td>
+    }
+    </table>
+
+    <form action="" method="post">
+        <div>
+            <label>Description</label>
+            <input type="text" name="desc" value="">
         </div>
+        <div>
+            <img id="img">
+        </div>
+        <div>
+            <button class="btn" id="upload" type="button">Upload</button>
+        </div>
+        <div>
+            <button class="btn">Submit</button>
+        </div>
+    </form>
+
+    <script type="text/javascript">
+    $(function(){
+        var uploader = new plupload.Uploader({
+            runtimes : 'html5,silverlight,browserplus,flash,gears',
+            browse_button: 'upload',
+            max_file_size: '3mb',
+            url: '',
+            multipart: true,
+            flash_swf_url: '/js/plupload/plupload.flash.swf',
+            silverlight_xap_url : '/js/plupload/plupload.silverlight.xap',
+            filters : [{title: "Image files", extensions : "jpg,png,gif,jpeg,bmp"}]
+        });
+        uploader.bind('FilesAdded', function(up, files){
+            //var file = files[files.length - 1]
+            while (files.length > 1) {
+                up.removeFile(files[0]);
+                files.shift();
+            }
+            var name = files[0].name;
+            uploader.curFileName = name;
+            setTimeout(function(){uploader.start();}, 500);
+        });
+        uploader.bind('FileUploaded', function(up, file, response){
+            alert("File uploaded");
+            console.log(response);
+        });
+        uploader.bind('Error', function(up, error){
+            alert("Error encountered");
+            console.log(error);
+        });
+        uploader.init();
+    })
+</script>
 
 }
