@@ -1,0 +1,30 @@
+2016-06-12 01:30:45,551 - [INFO] - from play in pool-4-thread-3 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2016-06-12 01:31:29,558 - [INFO] - from application in play-internal-execution-context-1 
+Application started!
+
+2016-06-12 01:31:30,829 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: ro
+
+2016-06-12 01:31:30,830 - [INFO] - from application in play-internal-execution-context-1 
+Connected to Database!
+
+2016-06-12 01:31:31,141 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-12 01:31:42,689 - [DEBUG] - from application in play-akka.actor.default-dispatcher-7 
+Returned with URL: '/authenticate/google'
+
+2016-06-12 01:31:42,709 - [DEBUG] - from application in play-akka.actor.default-dispatcher-7 
+generated redirect URL for dialog: https://accounts.google.com/o/oauth2/auth?client_id=912436160264-ev191lmaculrtniv0qkq4uregdptcuvf.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9000%2Fauthenticate%2Fgoogle&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&response_type=code&state=773d8827-f8f8-466d-ac22-672ad310dffa
+
+2016-06-12 01:31:45,267 - [DEBUG] - from application in play-akka.actor.default-dispatcher-3 
+Returned with URL: '/authenticate/google?state=773d8827-f8f8-466d-ac22-672ad310dffa&code=4/7FMf6g5VSeMV-0lSdxMdu6jjjSn2fCwISI_TRmkrcks'
+
+2016-06-12 01:31:46,300 - [DEBUG] - from application in play-akka.actor.default-dispatcher-3 
+{"access_token":"ya29.Ci__Ap9NMbAbrnEVtIOXSftEl0bcw3noimc0vTMDEd5JdL4PIWyUXtuNAyExhxj_6w","token_type":"Bearer","expires_in":3600,"id_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjVjMzEwYWY5Y2E1MjNkOTFkZjQ0ZjU1ZTgyYjI3YjcwMGI4N2U2ZWMifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6IndsV040TlFsWFlLWndaUXhSTUU3Z0EiLCJhdWQiOiI5MTI0MzYxNjAyNjQtZXYxOTFsbWFjdWxydG5pdjBxa3E0dXJlZ2RwdGN1dmYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTMwNDI1NjA2MTUwMDQyMTgyNjIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiOTEyNDM2MTYwMjY0LWV2MTkxbG1hY3VscnRuaXYwcWtxNHVyZWdkcHRjdXZmLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJtZWNoYW5pY2FsLm1hZ2dvdC4wQGdtYWlsLmNvbSIsImlhdCI6MTQ2NTY5MTUwNiwiZXhwIjoxNDY1Njk1MTA2fQ.E2KEt3GG5fhkSg3fFN6xNRgEK3mJWhY4M8TwE8FAKEiMAYhVYRH3eIhC48XsS63dgU16F1TK8Ch1HJnKEOmcZpR2nLuiv6aGN7lP_1ugbNXey3DUIViMFDAeQgsZx58DxBfEKBjUISxyX5Y0Fq1B9lU7EIy5X8FO7WAr4WAl1lMzOL-yxhmA5gfnDbCmn6yZ2eIL-6BL-_NdFSIqEtfvFKunpy7HEGOJYTFwT92htNfmdCumKURSuItAQMpA0vpKeWLLjKrPZEKoRJIM85gmdpR1pTivwZv1CdQRKDdpa9BkcVKTnF-AtpUNJbKeYJ3eCTrWg_nI8iRqFiHcmXFo5A"}
+
+2016-06-12 01:31:46,694 - [DEBUG] - from application in play-akka.actor.default-dispatcher-3 
+{"id":"113042560615004218262","email":"mechanical.maggot.0@gmail.com","verified_email":true,"name":"André Humberto","given_name":"André","family_name":"Humberto","link":"https://plus.google.com/113042560615004218262","picture":"https://lh5.googleusercontent.com/-Yf5rYd2OtDE/AAAAAAAAAAI/AAAAAAAAAEU/0jwWCODtavw/photo.jpg","gender":"male","locale":"pt-PT"}
+
