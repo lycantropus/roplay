@@ -3,16 +3,29 @@ package controllers;
 
 import java.io.File;
 //import java.sql.Blob;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import com.google.gson.Gson;
+import com.mongodb.BasicDBObject;
+import com.mongodb.util.JSON;
+import models.Artifact;
+import org.apache.commons.codec.binary.Base64;
+
 
 //import com.feth.play.module.pa.controllers.routes;
+import com.mongodb.gridfs.GridFS;
+import com.mongodb.gridfs.GridFSInputFile;
 import helper.datasources.MorphiaObject;
 import models.Ro;
 import models.User;
 
+import org.mongodb.morphia.Morphia;
 import org.mongodb.morphia.query.Query;
 import play.Routes;
 
@@ -128,6 +141,24 @@ public class Application extends Controller {
 		return new SimpleDateFormat("yyyy-dd-MM HH:mm:ss").format(new Date(t));
 	}
 
+	private static  String encodeFileToBase64Binary(File file){
+		String encodedfile = null;
+		try {
+			FileInputStream fileInputStreamReader = new FileInputStream(file);
+			byte[] bytes = new byte[(int)file.length()];
+			fileInputStreamReader.read(bytes);
+			encodedfile = Base64.encodeBase64(bytes).toString();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		return encodedfile;
+	}
+
 	public static Result upload() {
 		Http.MultipartFormData body = request().body().asMultipartFormData();
 		Http.MultipartFormData.FilePart picture = body.getFile("picture");
@@ -135,7 +166,40 @@ public class Application extends Controller {
 			String fileName = picture.getFilename();
 			String contentType = picture.getContentType();
 			File file = picture.getFile();
-			return ok("File uploaded");
+
+			String convertedfile = encodeFileToBase64Binary(file);
+
+			//TODO testar artefactos
+
+			final Query<Ro> query = MorphiaObject.datastore.createQuery(Ro.class);
+			final List<Ro> ros = query.asList();
+
+			Ro tmpro= ros.get(0);
+
+			List<Artifact> artList = tmpro.getArtifacts();
+
+			if(artList==null)
+			{
+				artList=new ArrayList<Artifact>();
+			}
+
+			Artifact art= new Artifact();
+
+			art.setTitle("artefacto teste");
+			art.setContent(convertedfile);
+			art.setType("image");
+
+			artList.add(art);
+
+			tmpro.setArtifacts(artList);
+			//Gson gson = new Gson();
+			//BasicDBObject obj = (BasicDBObject) JSON.parse(gson.toJson(tmpro));
+			MorphiaObject.datastore.save(tmpro);
+
+			final List<Ro> finalRos = query.asList();
+
+
+			return ok(restricted.render(getLocalUser(session()), finalRos));
 		} else {
 			flash("error", "Missing file");
 			return badRequest();

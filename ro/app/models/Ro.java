@@ -4,7 +4,11 @@ import helper.datasources.MorphiaObject;
 import org.bson.types.ObjectId;
 import org.mongodb.morphia.annotations.Entity;
 import org.mongodb.morphia.annotations.Id;
+import org.mongodb.morphia.annotations.Property;
 import org.mongodb.morphia.annotations.Reference;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Lycantropus on 12-06-2016.
@@ -17,6 +21,25 @@ public class Ro  {
 
     @Reference
     private User owner;
+
+
+    private List<Artifact> artifacts;
+
+    public List<Artifact> getArtifacts() {
+        return artifacts;
+    }
+
+    public void addArtifact( Artifact art)
+    {   if(artifacts==null)
+        {
+         artifacts= new ArrayList<Artifact>();
+        }
+        artifacts.add(art);
+    }
+
+    public void setArtifacts(List<Artifact> artifacts) {
+        this.artifacts = artifacts;
+    }
 
     public User getOwner() {
         return owner;

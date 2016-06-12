@@ -4,7 +4,7 @@
 		module="play-java_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20160612031717"
+		publication="20160612200248"
 	>
 		<description>
 		play-java
@@ -51,6 +51,7 @@
 		<dependency org="org.mongodb.morphia" name="morphia" rev="0.108" conf="compile->default(compile)"/>
 		<dependency org="org.mongodb.morphia" name="morphia-logging-slf4j" rev="0.108" conf="compile->default(compile)"/>
 		<dependency org="org.mongodb.morphia" name="morphia-validation" rev="0.108" conf="compile->default(compile)"/>
+		<dependency org="com.google.code.gson" name="gson" rev="2.6.2" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-java-jdbc_2.11" rev="2.3.6" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-java-ebean_2.11" rev="2.3.6" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-cache_2.11" rev="2.3.6" conf="compile->default(compile)"/>

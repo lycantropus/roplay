@@ -1,48 +1,300 @@
-2016-06-12 10:50:34,720 - [INFO] - from play in pool-4-thread-2 
+2016-06-12 20:03:05,528 - [INFO] - from play in pool-4-thread-2 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2016-06-12 10:50:51,465 - [INFO] - from application in play-internal-execution-context-1 
+2016-06-12 20:03:25,983 - [ERROR] - from application in New I/O worker #1 
+
+
+! @70cm0l78m - Internal server error, for (GET) [/upload] ->
+
+play.PlayExceptions$CompilationException: Compilation error[error: cannot find symbol]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2016-06-12 20:03:26,612 - [WARN] - from play in New I/O worker #1 
+No application found at invoker init
+
+2016-06-12 20:03:28,909 - [ERROR] - from application in New I/O worker #2 
+
+
+! @70cm0lboj - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[error: cannot find symbol]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2016-06-12 20:04:16,995 - [INFO] - from application in play-internal-execution-context-1 
 Application started!
 
-2016-06-12 10:50:53,219 - [DEBUG] - from application in play-internal-execution-context-1 
+2016-06-12 20:04:18,606 - [DEBUG] - from application in play-internal-execution-context-1 
 ** Morphia datastore: ro
 
-2016-06-12 10:50:53,220 - [INFO] - from application in play-internal-execution-context-1 
+2016-06-12 20:04:18,607 - [INFO] - from application in play-internal-execution-context-1 
 Connected to Database!
 
-2016-06-12 10:50:53,385 - [INFO] - from play in play-internal-execution-context-1 
+2016-06-12 20:04:18,754 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-06-12 12:04:06,534 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-12 12:04:08,061 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-12 12:04:08,062 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-12 12:04:08,250 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-12 12:04:08,252 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-12 12:21:13,195 - [DEBUG] - from application in play-akka.actor.default-dispatcher-10 
-Path where we are coming from (/user) is different than the login URL (/login)
-
-2016-06-12 12:21:18,011 - [DEBUG] - from application in play-akka.actor.default-dispatcher-19 
+2016-06-12 20:04:31,035 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
 Returned with URL: '/authenticate/google'
 
-2016-06-12 12:21:18,123 - [DEBUG] - from application in play-akka.actor.default-dispatcher-19 
-generated redirect URL for dialog: https://accounts.google.com/o/oauth2/auth?client_id=912436160264-ev191lmaculrtniv0qkq4uregdptcuvf.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9000%2Fauthenticate%2Fgoogle&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&response_type=code&state=8f317d2b-c190-4953-8234-df3e34e55a44
+2016-06-12 20:04:31,172 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+generated redirect URL for dialog: https://accounts.google.com/o/oauth2/auth?client_id=912436160264-ev191lmaculrtniv0qkq4uregdptcuvf.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9000%2Fauthenticate%2Fgoogle&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&response_type=code&state=6dc32ab9-df44-41ab-87f4-3d4a791b0f6e
 
-2016-06-12 12:21:20,676 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
-Returned with URL: '/authenticate/google?state=8f317d2b-c190-4953-8234-df3e34e55a44&code=4/avMGOsCNwy-BApmylW8V08FeeR3_nHYdxC0d4xPZhPs'
+2016-06-12 20:04:33,709 - [DEBUG] - from application in play-akka.actor.default-dispatcher-11 
+Returned with URL: '/authenticate/google?state=6dc32ab9-df44-41ab-87f4-3d4a791b0f6e&code=4/-XXfUkksuSQdW2nEgR8JHUXT-WDUvQIQ7cbMHuqY5WA'
 
-2016-06-12 12:21:23,313 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
-{"access_token":"ya29.Ci__Ana6cSuePLGwE4Bi8aczskT9finWDKvwboHzGvZph95mwILMMDTAxjLorcUnOA","token_type":"Bearer","expires_in":3600,"id_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjVjMzEwYWY5Y2E1MjNkOTFkZjQ0ZjU1ZTgyYjI3YjcwMGI4N2U2ZWMifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6Il9SQkYxeGpyMFlpTExrQ1Bxem1SVHciLCJhdWQiOiI5MTI0MzYxNjAyNjQtZXYxOTFsbWFjdWxydG5pdjBxa3E0dXJlZ2RwdGN1dmYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTMwNDI1NjA2MTUwMDQyMTgyNjIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiOTEyNDM2MTYwMjY0LWV2MTkxbG1hY3VscnRuaXYwcWtxNHVyZWdkcHRjdXZmLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJtZWNoYW5pY2FsLm1hZ2dvdC4wQGdtYWlsLmNvbSIsImlhdCI6MTQ2NTczMDQ4NCwiZXhwIjoxNDY1NzM0MDg0fQ.enIQFc3YH3yEUq5ljBXhg3q-qUBVPvjIDSLu6kM28yBLhe5niCXBGhH2DTqF_xDVhJ4coMJhIq5f5hLC0xR-pjKQHjQYbBbSlr4RRmiXy0keFbRt9Yar5DAOipybfk1lnq10Y46a5J29P5H4RXA_4KPWmEltBxvooiHnIhc_hzkcv3k33qzEs8Rj5lrFebVdslPhq8hxLZFu3ErxM52SQVARr5lwxhpFsHN0PAdAr1dnf9keZkOIeOqHZnTcChDzcmS3JlXYgMQn0ZSKj01AGmnIRiovnvlWKYFA-Q41FWtHzll72WH2XAyFQmyH8aW7SDZavVVvNxUQdrexiDcZAQ"}
+2016-06-12 20:04:36,118 - [DEBUG] - from application in play-akka.actor.default-dispatcher-11 
+{"access_token":"ya29.Ci__AqqMCdusbcL0YrUUxecBiKRy12QL3hCyRHzzG7T4oSRglkJIor6vCqmhkvwD-Q","token_type":"Bearer","expires_in":3599,"id_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjVjMzEwYWY5Y2E1MjNkOTFkZjQ0ZjU1ZTgyYjI3YjcwMGI4N2U2ZWMifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6ImprT3NXbk1zSWw3dl82cVAtOWJPekEiLCJhdWQiOiI5MTI0MzYxNjAyNjQtZXYxOTFsbWFjdWxydG5pdjBxa3E0dXJlZ2RwdGN1dmYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTMwNDI1NjA2MTUwMDQyMTgyNjIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiOTEyNDM2MTYwMjY0LWV2MTkxbG1hY3VscnRuaXYwcWtxNHVyZWdkcHRjdXZmLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJtZWNoYW5pY2FsLm1hZ2dvdC4wQGdtYWlsLmNvbSIsImlhdCI6MTQ2NTc1ODI3NSwiZXhwIjoxNDY1NzYxODc1fQ.PqhlgxlrQ-NbzL_c3cxVxCDKl4LTLzlNKixDV-G0cLeIu6oBObBfN-RKk3r-DB7A59MR8yPHMLb2psTcTLtpTzv94cunqoSqPTV9lWqetwfKe-cWK2Q2-WfT6RMTzPH8E_gD93afvBC1JM2vH1lkQhe1q7IJNnuofl9t9bmN8o4LWYH4CN9uyqhjKz-_eK74rtZEda7qFh_Ff9KfeJlSpdhPCLrD4YJXP4wrSQuPoAnKOxPdAzeNbv2d5cT9SLH1jnY9bLeEVOSoTQmI0GgsPbb7XLBMPRssi4zDgSjXFLeAL6NMEiEEQ4SOWe5oilPrlX3lGYwxDr5z-viVnnQLYQ"}
 
-2016-06-12 12:21:23,656 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+2016-06-12 20:04:36,536 - [DEBUG] - from application in play-akka.actor.default-dispatcher-11 
+{"id":"113042560615004218262","email":"mechanical.maggot.0@gmail.com","verified_email":true,"name":"André Humberto","given_name":"André","family_name":"Humberto","link":"https://plus.google.com/113042560615004218262","picture":"https://lh5.googleusercontent.com/-Yf5rYd2OtDE/AAAAAAAAAAI/AAAAAAAAAEU/0jwWCODtavw/photo.jpg","gender":"male","locale":"pt-PT"}
+
+2016-06-12 20:04:51,095 - [ERROR] - from play in play-internal-execution-context-1 
+Cannot invoke the action, eventually got an error: java.lang.RuntimeException: bad type, not parameterized...
+
+2016-06-12 20:04:51,281 - [ERROR] - from application in play-internal-execution-context-1 
+
+
+! @70cm103pb - Internal server error, for (POST) [/upload] ->
+
+play.api.Application$$anon$1: Execution exception[[RuntimeException: bad type, not parameterized...]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.6.jar:2.3.6]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:316) [play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:344) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:343) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:249) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:249) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
+Caused by: java.lang.RuntimeException: bad type, not parameterized...
+	at org.mongodb.morphia.utils.ReflectionUtils.isPropertyType(ReflectionUtils.java:179) ~[morphia-0.108.jar:na]
+	at org.mongodb.morphia.mapping.MappedField.discover(MappedField.java:115) ~[morphia-0.108.jar:na]
+	at org.mongodb.morphia.mapping.MappedField.<init>(MappedField.java:86) ~[morphia-0.108.jar:na]
+	at org.mongodb.morphia.mapping.MappedClass.discover(MappedClass.java:221) ~[morphia-0.108.jar:na]
+	at org.mongodb.morphia.mapping.MappedClass.<init>(MappedClass.java:147) ~[morphia-0.108.jar:na]
+	at org.mongodb.morphia.mapping.Mapper.getMappedClass(Mapper.java:224) ~[morphia-0.108.jar:na]
+	at org.mongodb.morphia.DatastoreImpl.getWriteConcern(DatastoreImpl.java:1412) ~[morphia-0.108.jar:na]
+	at org.mongodb.morphia.DatastoreImpl.save(DatastoreImpl.java:1000) ~[morphia-0.108.jar:na]
+	at controllers.Application.upload(Application.java:186) ~[na:na]
+	at Routes$$anonfun$routes$1$$anonfun$applyOrElse$28$$anonfun$apply$28.apply(routes_routing.scala:457) ~[na:na]
+	at Routes$$anonfun$routes$1$$anonfun$applyOrElse$28$$anonfun$apply$28.apply(routes_routing.scala:457) ~[na:na]
+	at play.core.Router$HandlerInvokerFactory$$anon$4.resultCall(Router.scala:264) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.Router$HandlerInvokerFactory$JavaActionInvokerFactory$$anon$15$$anon$1.invocation(Router.scala:255) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:55) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.GlobalSettings$1.call(GlobalSettings.java:67) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.j.JavaAction$$anonfun$11.apply(JavaAction.scala:82) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.j.JavaAction$$anonfun$11.apply(JavaAction.scala:82) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:40) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:32) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$.apply(Future.scala:31) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$.apply(Future.scala:492) ~[scala-library-2.11.1.jar:na]
+	at play.core.j.JavaAction$class.apply(JavaAction.scala:82) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.Router$HandlerInvokerFactory$JavaActionInvokerFactory$$anon$15$$anon$1.apply(Router.scala:252) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:130) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:130) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:21) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:129) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:128) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
+	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:128) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:121) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:483) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:483) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:519) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:519) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:496) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:496) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) ~[akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) ~[akka-actor_2.11-2.3.4.jar:na]
+	... 4 common frames omitted
+
+2016-06-12 20:14:05,833 - [INFO] - from application in play-internal-execution-context-3 
+Application started!
+
+2016-06-12 20:14:06,481 - [DEBUG] - from application in play-internal-execution-context-3 
+** Morphia datastore: ro
+
+2016-06-12 20:14:06,481 - [INFO] - from application in play-internal-execution-context-3 
+Connected to Database!
+
+2016-06-12 20:14:06,599 - [WARN] - from application in play-internal-execution-context-3 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2016-06-12 20:14:06,602 - [INFO] - from play in play-internal-execution-context-3 
+Application started (Dev)
+
+2016-06-12 20:14:11,266 - [DEBUG] - from application in play-akka.actor.default-dispatcher-16 
+Path where we are coming from (/user) is different than the login URL (/login)
+
+2016-06-12 20:14:16,601 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Returned with URL: '/authenticate/google'
+
+2016-06-12 20:14:16,601 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+generated redirect URL for dialog: https://accounts.google.com/o/oauth2/auth?client_id=912436160264-ev191lmaculrtniv0qkq4uregdptcuvf.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9000%2Fauthenticate%2Fgoogle&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&response_type=code&state=2572005c-bd4a-4216-bfe4-6a8c6648afdd
+
+2016-06-12 20:14:18,751 - [DEBUG] - from application in play-akka.actor.default-dispatcher-18 
+Returned with URL: '/authenticate/google?state=2572005c-bd4a-4216-bfe4-6a8c6648afdd&code=4/SgRa07ijARyzlQR7EgUPTcAEnfCPzOgQ1xvaA2YKEIM'
+
+2016-06-12 20:14:19,030 - [DEBUG] - from application in play-akka.actor.default-dispatcher-18 
+{"access_token":"ya29.Ci__ArTmjhAAGP645V8n5QZ_YQd6fjLu-Ck1GdTi2n6YxJrQJjoyxBeIvk0GXf-pnQ","token_type":"Bearer","expires_in":3600,"id_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjhlODBmNjc3ZjU5OTgwOWI1MGJhMTAxMjIyMmZjOTJmZDY2NzFhMmYifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6ImtyZFNRb25DUGpvUG9WaWh4cHhmVVEiLCJhdWQiOiI5MTI0MzYxNjAyNjQtZXYxOTFsbWFjdWxydG5pdjBxa3E0dXJlZ2RwdGN1dmYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTMwNDI1NjA2MTUwMDQyMTgyNjIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiOTEyNDM2MTYwMjY0LWV2MTkxbG1hY3VscnRuaXYwcWtxNHVyZWdkcHRjdXZmLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJtZWNoYW5pY2FsLm1hZ2dvdC4wQGdtYWlsLmNvbSIsImlhdCI6MTQ2NTc1ODg1OSwiZXhwIjoxNDY1NzYyNDU5fQ.JvkuRuf6BtD_98gKv1qzZXBRhjCHwOeCyF-81_2GtjfTplnC4BALww5eU5lK_zZa6iI_DN3P1ZFtbpsFs-Ufx7grFecqF5pnhJPR67dLzQviCRVsrIyTsPK5OttjsU-G4qWIwssxnKGIsRjxWB6cdmxEmXPkRTfwITU-Y6qNm4txNScfd5CmJTk1UHkppR7ZuRzHqpFABGeBlZGLVgopKbzf4lZekYdJ0f-oT--pL8LZL6ENYCgmE4dNb_xkfsUH4ZaaTLf9UQcwtgPpkEgDi2gG02wpCcFsbu5EZ7VJdzMIftLDZihrBm1GFjFfpyfQSue57gvx8_wCjpn2tfCTCw"}
+
+2016-06-12 20:14:19,337 - [DEBUG] - from application in play-akka.actor.default-dispatcher-18 
+{"id":"113042560615004218262","email":"mechanical.maggot.0@gmail.com","verified_email":true,"name":"André Humberto","given_name":"André","family_name":"Humberto","link":"https://plus.google.com/113042560615004218262","picture":"https://lh5.googleusercontent.com/-Yf5rYd2OtDE/AAAAAAAAAAI/AAAAAAAAAEU/0jwWCODtavw/photo.jpg","gender":"male","locale":"pt-PT"}
+
+2016-06-12 20:14:31,471 - [ERROR] - from play in play-internal-execution-context-8 
+Cannot invoke the action, eventually got an error: java.lang.NullPointerException
+
+2016-06-12 20:14:31,475 - [ERROR] - from application in play-internal-execution-context-8 
+
+
+! @70cm2746e - Internal server error, for (POST) [/upload] ->
+
+play.api.Application$$anon$1: Execution exception[[NullPointerException: null]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.6.jar:2.3.6]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:316) [play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:344) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:343) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:249) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$flatMap$1.apply(Future.scala:249) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
+Caused by: java.lang.NullPointerException: null
+	at controllers.Application.upload(Application.java:187) ~[na:na]
+	at Routes$$anonfun$routes$1$$anonfun$applyOrElse$28$$anonfun$apply$28.apply(routes_routing.scala:457) ~[na:na]
+	at Routes$$anonfun$routes$1$$anonfun$applyOrElse$28$$anonfun$apply$28.apply(routes_routing.scala:457) ~[na:na]
+	at play.core.Router$HandlerInvokerFactory$$anon$4.resultCall(Router.scala:264) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.Router$HandlerInvokerFactory$JavaActionInvokerFactory$$anon$15$$anon$1.invocation(Router.scala:255) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:55) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.GlobalSettings$1.call(GlobalSettings.java:67) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.j.JavaAction$$anonfun$11.apply(JavaAction.scala:82) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.j.JavaAction$$anonfun$11.apply(JavaAction.scala:82) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:40) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:32) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$.apply(Future.scala:31) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$.apply(Future.scala:492) ~[scala-library-2.11.1.jar:na]
+	at play.core.j.JavaAction$class.apply(JavaAction.scala:82) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.Router$HandlerInvokerFactory$JavaActionInvokerFactory$$anon$15$$anon$1.apply(Router.scala:252) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:130) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:130) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:21) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:129) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:128) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
+	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:128) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:121) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:483) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:483) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:519) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:519) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:496) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:496) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) ~[akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) ~[akka-actor_2.11-2.3.4.jar:na]
+	... 4 common frames omitted
+
+2016-06-12 20:15:44,380 - [INFO] - from application in play-internal-execution-context-10 
+Application started!
+
+2016-06-12 20:15:45,011 - [DEBUG] - from application in play-internal-execution-context-10 
+** Morphia datastore: ro
+
+2016-06-12 20:15:45,011 - [INFO] - from application in play-internal-execution-context-10 
+Connected to Database!
+
+2016-06-12 20:15:45,128 - [WARN] - from application in play-internal-execution-context-10 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2016-06-12 20:15:45,130 - [INFO] - from play in play-internal-execution-context-10 
+Application started (Dev)
+
+2016-06-12 20:17:40,583 - [DEBUG] - from application in play-akka.actor.default-dispatcher-38 
+Returned with URL: '/authenticate/google'
+
+2016-06-12 20:17:40,585 - [DEBUG] - from application in play-akka.actor.default-dispatcher-38 
+generated redirect URL for dialog: https://accounts.google.com/o/oauth2/auth?client_id=912436160264-ev191lmaculrtniv0qkq4uregdptcuvf.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9000%2Fauthenticate%2Fgoogle&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&response_type=code&state=5532eeae-9365-4f49-93b3-bfb88f83c9ea
+
+2016-06-12 20:17:43,199 - [DEBUG] - from application in play-akka.actor.default-dispatcher-38 
+Returned with URL: '/authenticate/google?state=5532eeae-9365-4f49-93b3-bfb88f83c9ea&code=4/u09OJOS6CArlBTExyJ6nPBJ8LoUWxJMlAUdGR-g-vzs'
+
+2016-06-12 20:17:43,550 - [DEBUG] - from application in play-akka.actor.default-dispatcher-38 
+{"access_token":"ya29.Ci__AlH73ySubS0TUa7XnQJ-HCUFbHzpFFgjDr3uX1TFOSinBiLVFoUc7Y3QdEa3cg","token_type":"Bearer","expires_in":3600,"id_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjVjMzEwYWY5Y2E1MjNkOTFkZjQ0ZjU1ZTgyYjI3YjcwMGI4N2U2ZWMifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6IlR5UnZVRk5xRkREOEotYUNUWE14RnciLCJhdWQiOiI5MTI0MzYxNjAyNjQtZXYxOTFsbWFjdWxydG5pdjBxa3E0dXJlZ2RwdGN1dmYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTMwNDI1NjA2MTUwMDQyMTgyNjIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiOTEyNDM2MTYwMjY0LWV2MTkxbG1hY3VscnRuaXYwcWtxNHVyZWdkcHRjdXZmLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJtZWNoYW5pY2FsLm1hZ2dvdC4wQGdtYWlsLmNvbSIsImlhdCI6MTQ2NTc1OTA2MywiZXhwIjoxNDY1NzYyNjYzfQ.as15tZWYPKLCkoZS5Y_ADx5MvzWkrSkXTIkSphR0J46MysPSiATRewkyUVPVHYWQJ3lbZcmXz0rZe9-yvIb7Zl1BvX9_TudEMcC5MJLJMNLQnk-8XQPcbafe9MR43HNxJj_VZEBeVI-UBt3b8gFzWQ1DjHwX4qe5SyK8GMPQQFjiQHnLJNxZHyWy-krBIqFO-vu0EMjtroFIAV2OeRJOwqoetT4v6G19E_v9WfRBRHyFOPNYt5USvNtuV5vUS1IGBNNbgCcwBkFaIiKfXwLFy3OC2-K3dJ4S66S35UAW33Kwwozv-BLtci4YocDfd6Wjw-u4La5E6DOBPpGZVIkzvg"}
+
+2016-06-12 20:17:43,883 - [DEBUG] - from application in play-akka.actor.default-dispatcher-38 
 {"id":"113042560615004218262","email":"mechanical.maggot.0@gmail.com","verified_email":true,"name":"André Humberto","given_name":"André","family_name":"Humberto","link":"https://plus.google.com/113042560615004218262","picture":"https://lh5.googleusercontent.com/-Yf5rYd2OtDE/AAAAAAAAAAI/AAAAAAAAAEU/0jwWCODtavw/photo.jpg","gender":"male","locale":"pt-PT"}
 

@@ -13,6 +13,7 @@ libraryDependencies ++= Seq(
   "org.mongodb.morphia" % "morphia" % "0.108",
   "org.mongodb.morphia" % "morphia-logging-slf4j" % "0.108",
   "org.mongodb.morphia" % "morphia-validation" % "0.108",
+  "com.google.code.gson" % "gson" % "2.6.2",
   javaJdbc,
   javaEbean,
   cache,

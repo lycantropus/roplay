@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for play-java#play-java_2.11;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a7c3a72[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@209124ab[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.11.1[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.1 in sbt-chain[0m
@@ -1155,6 +1155,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb.morphia#morphia-validation;0.108->javax.validation#validation-api;1.1.0.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb.morphia#morphia-validation;0.108->javax.validation#validation-api;1.1.0.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.mongodb.morphia#morphia-validation;0.108 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.google.code.gson#gson;2.6.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.code.gson#gson;2.6.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.code.gson#gson;2.6.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.google.code.gson#gson;2.6.2[0m
+[0m[[0mdebug[0m] [0m	found com.google.code.gson#gson;2.6.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java-jdbc_2.11;2.3.6 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-java-jdbc_2.11;2.3.6 {compile=[default(compile)]}[0m
@@ -2191,6 +2200,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb.morphia#morphia-validation;0.108->javax.validation#validation-api;1.1.0.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb.morphia#morphia-validation;0.108->javax.validation#validation-api;1.1.0.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.mongodb.morphia#morphia-validation;0.108 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->compile][0m
@@ -3006,6 +3019,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb.morphia#morphia-validation;0.108->javax.validation#validation-api;1.1.0.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb.morphia#morphia-validation;0.108->javax.validation#validation-api;1.1.0.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.mongodb.morphia#morphia-validation;0.108 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->compile][0m
@@ -5026,6 +5043,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb.morphia#morphia-validation;0.108->javax.validation#validation-api;1.1.0.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb.morphia#morphia-validation;0.108->javax.validation#validation-api;1.1.0.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.mongodb.morphia#morphia-validation;0.108 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->compile][0m
@@ -5843,6 +5864,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb.morphia#morphia-validation;0.108->javax.validation#validation-api;1.1.0.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb.morphia#morphia-validation;0.108->javax.validation#validation-api;1.1.0.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.mongodb.morphia#morphia-validation;0.108 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->compile][0m
@@ -6660,6 +6685,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb.morphia#morphia-validation;0.108->javax.validation#validation-api;1.1.0.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb.morphia#morphia-validation;0.108->javax.validation#validation-api;1.1.0.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.mongodb.morphia#morphia-validation;0.108 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->compile][0m
@@ -8864,6 +8893,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb.morphia#morphia-validation;0.108->javax.validation#validation-api;1.1.0.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb.morphia#morphia-validation;0.108->javax.validation#validation-api;1.1.0.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.mongodb.morphia#morphia-validation;0.108 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->compile][0m
@@ -9682,6 +9715,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb.morphia#morphia-validation;0.108->javax.validation#validation-api;1.1.0.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb.morphia#morphia-validation;0.108->javax.validation#validation-api;1.1.0.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->org.mongodb.morphia#morphia-validation;0.108 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.google.code.gson#gson;2.6.2 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play-java#play-java_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.6 [compile->compile][0m
@@ -10727,6 +10764,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb.morphia#morphia;0.108!morphia.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb.morphia#morphia-logging-slf4j;0.108!morphia-logging-slf4j.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb.morphia#morphia-validation;0.108!morphia-validation.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.code.gson#gson;2.6.2!gson.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-jdbc_2.11;2.3.6!play-java-jdbc_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-ebean_2.11;2.3.6!play-java-ebean_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-cache_2.11;2.3.6!play-cache_2.11.jar[0m
@@ -10871,7 +10909,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.11!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.aspectj#aspectjweaver;1.7.3!aspectjweaver.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.trace#trace-sigar-libs;0.1.6!trace-sigar-libs.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 25210ms :: artifacts dl 367ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 12154ms :: artifacts dl 171ms[0m
 [0m[[0mdebug[0m] [0m	report for play-java#play-java_2.11;1.0-SNAPSHOT compile produced in D:\roplay\ro\target\resolution-cache\reports\play-java-play-java_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for play-java#play-java_2.11;1.0-SNAPSHOT runtime produced in D:\roplay\ro\target\resolution-cache\reports\play-java-play-java_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for play-java#play-java_2.11;1.0-SNAPSHOT test produced in D:\roplay\ro\target\resolution-cache\reports\play-java-play-java_2.11-test.xml[0m
@@ -10889,5 +10927,5 @@
 [0m[[0mdebug[0m] [0m	report for play-java#play-java_2.11;1.0-SNAPSHOT echo-trace-test produced in D:\roplay\ro\target\resolution-cache\reports\play-java-play-java_2.11-echo-trace-test.xml[0m
 [0m[[0mdebug[0m] [0m	report for play-java#play-java_2.11;1.0-SNAPSHOT echo-weave produced in D:\roplay\ro\target\resolution-cache\reports\play-java-play-java_2.11-echo-weave.xml[0m
 [0m[[0mdebug[0m] [0m	report for play-java#play-java_2.11;1.0-SNAPSHOT echo-sigar produced in D:\roplay\ro\target\resolution-cache\reports\play-java-play-java_2.11-echo-sigar.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (25210ms resolve - 367ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (12154ms resolve - 171ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

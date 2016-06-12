@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="FacetManager" />
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/../target\scala-2.11\classes" />
     <output-test url="file://$MODULE_DIR$/../target\scala-2.11\test-classes" />
@@ -157,6 +156,7 @@
     <orderEntry type="library" scope="TEST" name="SBT: org.easytesting:fest-assert:1.4:test" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.easytesting:fest-util:1.1.6:test" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.1" level="project" />
+    <orderEntry type="library" name="SBT: commons-io:commons-io:2.2:test" level="project" />
+    <orderEntry type="library" name="SBT: com.google.code.gson:gson:2.6.2:jar" level="project" />
   </component>
 </module>
-
