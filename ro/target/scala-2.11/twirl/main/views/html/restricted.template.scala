@@ -37,7 +37,7 @@ Seq[Any](format.raw/*1.51*/("""
         """),_display_(/*10.10*/Messages("playauthenticate.restricted.secrets")),format.raw/*10.57*/("""
     """),format.raw/*11.5*/("""</p>
 
-    <table class="table" style="width:50%">
+    <table class="table" style="width:80%">
         <thead>
             <tr>
                 <th>User</th>
@@ -54,55 +54,17 @@ Seq[Any](format.raw/*1.51*/("""
     """)))}),format.raw/*27.6*/("""
     """),format.raw/*28.5*/("""</table>
 
-    <form action="" method="post">
-        <div>
-            <label>Description</label>
-            <input type="text" name="desc" value="">
-        </div>
-        <div>
-            <img id="img">
-        </div>
-        <div>
-            <button class="btn" id="upload" type="button">Upload</button>
-        </div>
-        <div>
-            <button class="btn">Submit</button>
-        </div>
-    </form>
+    """),_display_(/*30.6*/form(action = routes.Application.upload, 'enctype -> "multipart/form-data")/*30.81*/ {_display_(Seq[Any](format.raw/*30.83*/("""
 
-    <script type="text/javascript">
-    $(function()"""),format.raw/*47.17*/("""{"""),format.raw/*47.18*/("""
-        """),format.raw/*48.9*/("""var uploader = new plupload.Uploader("""),format.raw/*48.46*/("""{"""),format.raw/*48.47*/("""
-            """),format.raw/*49.13*/("""runtimes : 'html5,silverlight,browserplus,flash,gears',
-            browse_button: 'upload',
-            max_file_size: '3mb',
-            url: '',
-            multipart: true,
-            flash_swf_url: '/js/plupload/plupload.flash.swf',
-            silverlight_xap_url : '/js/plupload/plupload.silverlight.xap',
-            filters : ["""),format.raw/*56.24*/("""{"""),format.raw/*56.25*/("""title: "Image files", extensions : "jpg,png,gif,jpeg,bmp""""),format.raw/*56.82*/("""}"""),format.raw/*56.83*/("""]
-        """),format.raw/*57.9*/("""}"""),format.raw/*57.10*/(""");
-        uploader.bind('FilesAdded', function(up, files)"""),format.raw/*58.56*/("""{"""),format.raw/*58.57*/("""
-            """),format.raw/*59.13*/("""//var file = files[files.length - 1]
-            while (files.length > 1) """),format.raw/*60.38*/("""{"""),format.raw/*60.39*/("""
-                """),format.raw/*61.17*/("""up.removeFile(files[0]);
-                files.shift();
-            """),format.raw/*63.13*/("""}"""),format.raw/*63.14*/("""
-            """),format.raw/*64.13*/("""var name = files[0].name;
-            uploader.curFileName = name;
-            setTimeout(function()"""),format.raw/*66.34*/("""{"""),format.raw/*66.35*/("""uploader.start();"""),format.raw/*66.52*/("""}"""),format.raw/*66.53*/(""", 500);
-        """),format.raw/*67.9*/("""}"""),format.raw/*67.10*/(""");
-        uploader.bind('FileUploaded', function(up, file, response)"""),format.raw/*68.67*/("""{"""),format.raw/*68.68*/("""
-            """),format.raw/*69.13*/("""alert("File uploaded");
-            console.log(response);
-        """),format.raw/*71.9*/("""}"""),format.raw/*71.10*/(""");
-        uploader.bind('Error', function(up, error)"""),format.raw/*72.51*/("""{"""),format.raw/*72.52*/("""
-            """),format.raw/*73.13*/("""alert("Error encountered");
-            console.log(error);
-        """),format.raw/*75.9*/("""}"""),format.raw/*75.10*/(""");
-        uploader.init();
-    """),format.raw/*77.5*/("""}"""),format.raw/*77.6*/(""")
-</script>
+        """),format.raw/*32.9*/("""<input type="file" name="picture">
+
+        <p>
+            <input type="submit">
+        </p>
+
+    """)))}),format.raw/*38.6*/("""
+
+
 
 """)))}))}
   }
@@ -116,11 +78,11 @@ Seq[Any](format.raw/*1.51*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Sun Jun 12 08:29:03 BST 2016
+                  DATE: Sun Jun 12 12:03:45 BST 2016
                   SOURCE: D:/roplay/ro/app/views/restricted.scala.html
-                  HASH: e367ba014b89b9952202042d0f6df6fd7c7faccb
-                  MATRIX: 749->1|934->50|962->103|989->105|1067->175|1106->177|1142->187|1173->192|1243->242|1293->265|1361->312|1393->317|1645->542|1663->551|1698->565|1736->577|1767->592|1806->593|1847->606|1879->611|1890->613|1919->621|1969->644|1980->646|2010->655|2051->666|2083->671|2578->1138|2607->1139|2643->1148|2708->1185|2737->1186|2778->1199|3143->1536|3172->1537|3257->1594|3286->1595|3323->1605|3352->1606|3438->1664|3467->1665|3508->1678|3610->1752|3639->1753|3684->1770|3780->1838|3809->1839|3850->1852|3978->1952|4007->1953|4052->1970|4081->1971|4124->1987|4153->1988|4250->2057|4279->2058|4320->2071|4414->2138|4443->2139|4524->2192|4553->2193|4594->2206|4689->2274|4718->2275|4777->2307|4805->2308
-                  LINES: 26->1|30->1|32->5|33->6|33->6|33->6|35->8|35->8|35->8|37->10|37->10|38->11|49->22|49->22|49->22|51->24|51->24|51->24|52->25|52->25|52->25|52->25|53->26|53->26|53->26|54->27|55->28|74->47|74->47|75->48|75->48|75->48|76->49|83->56|83->56|83->56|83->56|84->57|84->57|85->58|85->58|86->59|87->60|87->60|88->61|90->63|90->63|91->64|93->66|93->66|93->66|93->66|94->67|94->67|95->68|95->68|96->69|98->71|98->71|99->72|99->72|100->73|102->75|102->75|104->77|104->77
+                  HASH: e0dd96d93c7c535fa30e756dd9f5e280f5f34410
+                  MATRIX: 749->1|934->50|962->103|989->105|1067->175|1106->177|1142->187|1173->192|1243->242|1293->265|1361->312|1393->317|1645->542|1663->551|1698->565|1736->577|1767->592|1806->593|1847->606|1879->611|1890->613|1919->621|1969->644|1980->646|2010->655|2051->666|2083->671|2124->686|2208->761|2248->763|2285->773|2416->874
+                  LINES: 26->1|30->1|32->5|33->6|33->6|33->6|35->8|35->8|35->8|37->10|37->10|38->11|49->22|49->22|49->22|51->24|51->24|51->24|52->25|52->25|52->25|52->25|53->26|53->26|53->26|54->27|55->28|57->30|57->30|57->30|59->32|65->38
                   -- GENERATED --
               */
           

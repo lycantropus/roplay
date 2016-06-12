@@ -1,6 +1,6 @@
 // @SOURCE:D:/roplay/ro/conf/routes
-// @HASH:67282cd251cc79f357d8b8a9afaf3d26a9f66e32
-// @DATE:Sun Jun 12 08:26:19 BST 2016
+// @HASH:1920331b6399b9534756c5d6ce750f583055c114
+// @DATE:Sun Jun 12 08:54:35 BST 2016
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -43,6 +43,7 @@ def authenticate(provider:String): Call = {
 }
                   
 
+// @LINE:48
 // @LINE:47
 // @LINE:44
 // @LINE:43
@@ -224,6 +225,7 @@ def doChangePassword(): Call = {
 }
                           
 
+// @LINE:48
 // @LINE:19
 // @LINE:18
 // @LINE:13
@@ -239,6 +241,13 @@ class ReverseApplication {
 def doSignup(): Call = {
    import ReverseRouteContext.empty
    Call("POST", _prefix + { _defaultPrefix } + "signup")
+}
+                        
+
+// @LINE:48
+def upload(): Call = {
+   import ReverseRouteContext.empty
+   Call("POST", _prefix + { _defaultPrefix } + "upload")
 }
                         
 
@@ -334,6 +343,7 @@ def authenticate : JavascriptReverseRoute = JavascriptReverseRoute(
 }
         
 
+// @LINE:48
 // @LINE:47
 // @LINE:44
 // @LINE:43
@@ -584,6 +594,7 @@ def doChangePassword : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
+// @LINE:48
 // @LINE:19
 // @LINE:18
 // @LINE:13
@@ -601,6 +612,17 @@ def doSignup : JavascriptReverseRoute = JavascriptReverseRoute(
    """
       function() {
       return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "signup"})
+      }
+   """
+)
+                        
+
+// @LINE:48
+def upload : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Application.upload",
+   """
+      function() {
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "upload"})
       }
    """
 )
@@ -716,6 +738,7 @@ def authenticate(provider:String): play.api.mvc.HandlerRef[_] = new play.api.mvc
 }
         
 
+// @LINE:48
 // @LINE:47
 // @LINE:44
 // @LINE:43
@@ -881,6 +904,7 @@ def doChangePassword(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef
 }
                           
 
+// @LINE:48
 // @LINE:19
 // @LINE:18
 // @LINE:13
@@ -895,6 +919,12 @@ class ReverseApplication {
 // @LINE:19
 def doSignup(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Application.doSignup(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "doSignup", Seq(), "POST", """""", _prefix + """signup""")
+)
+                      
+
+// @LINE:48
+def upload(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Application.upload(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "upload", Seq(), "POST", """""", _prefix + """upload""")
 )
                       
 
