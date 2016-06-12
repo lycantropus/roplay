@@ -52,7 +52,7 @@ Seq[Any](format.raw/*1.59*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Sat Jun 11 23:37:13 BST 2016
+                  DATE: Sun Jun 12 03:17:22 BST 2016
                   SOURCE: D:/roplay/ro/app/views/account/email/password_reset_pt.scala.html
                   HASH: efe9e2c598a84e084a736e9c77eacbbc0dcf846a
                   MATRIX: 770->1|915->58|942->59|972->64|996->68|1259->304|1283->307

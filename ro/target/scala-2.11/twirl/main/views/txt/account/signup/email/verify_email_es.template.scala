@@ -48,7 +48,7 @@ El equipo de PlayAuthenticate.
 }
               /*
                   -- GENERATED --
-                  DATE: Sat Jun 11 23:37:14 BST 2016
+                  DATE: Sun Jun 12 03:17:24 BST 2016
                   SOURCE: D:/roplay/ro/app/views/account/signup/email/verify_email_es.scala.txt
                   HASH: 92f9c693169ca7f81cd5a61af6f0920e577f23da
                   MATRIX: 769->1|925->70|957->76|981->80|1101->175|1136->190|1164->192

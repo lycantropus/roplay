@@ -39,7 +39,7 @@ Seq[Any](format.raw/*1.23*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Sat Jun 11 23:37:13 BST 2016
+                  DATE: Sun Jun 12 03:17:19 BST 2016
                   SOURCE: D:/roplay/ro/app/views/_providerIcon.scala.html
                   HASH: 3e323c45e0d3e9c254d82b83d46207134eecdc8c
                   MATRIX: 731->1|840->22|867->23|904->34|935->45|963->46|1003->60|1034->71|1068->79|1082->85|1148->130

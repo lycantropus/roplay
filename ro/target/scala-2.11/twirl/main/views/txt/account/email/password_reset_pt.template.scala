@@ -48,7 +48,7 @@ A equipa do PlayAuthenticate"""))}
 }
               /*
                   -- GENERATED --
-                  DATE: Sat Jun 11 23:37:13 BST 2016
+                  DATE: Sun Jun 12 03:17:22 BST 2016
                   SOURCE: D:/roplay/ro/app/views/account/email/password_reset_pt.scala.txt
                   HASH: 1695bd5d21237063b20bb182ed6fa5b677ea73e5
                   MATRIX: 764->1|908->58|939->63|963->67|1232->311|1254->314|1283->316

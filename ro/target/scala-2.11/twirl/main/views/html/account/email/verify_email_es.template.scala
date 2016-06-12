@@ -50,7 +50,7 @@ Seq[Any](format.raw/*1.71*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Sat Jun 11 23:37:13 BST 2016
+                  DATE: Sun Jun 12 03:17:23 BST 2016
                   SOURCE: D:/roplay/ro/app/views/account/email/verify_email_es.scala.html
                   HASH: cba3208a7f4a7513acaee7b09b33be432d07b655
                   MATRIX: 768->1|925->70|952->71|983->77|1007->81|1104->152|1139->167

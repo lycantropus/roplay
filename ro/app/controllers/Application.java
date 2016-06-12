@@ -1,13 +1,18 @@
 package controllers;
 
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+
 import models.User;
+
 import play.Routes;
+
 import play.data.Form;
+
 import play.mvc.*;
-import play.mvc.Http.Response;
+
 import play.mvc.Http.Session;
 import play.mvc.Result;
 import providers.MyUsernamePasswordAuthProvider;
@@ -22,7 +27,6 @@ import com.feth.play.module.pa.PlayAuthenticate;
 import com.feth.play.module.pa.providers.password.UsernamePasswordAuthProvider;
 import com.feth.play.module.pa.user.AuthUser;
 
-import controllers.routes;
 
 public class Application extends Controller {
 
@@ -91,6 +95,8 @@ public class Application extends Controller {
 			// Everything was filled
 			// do something with your part of the form before handling the user
 			// signup
+
+			//TODO CRIAR AQUI A COLLECTION DO USER NO MONGO
 			return UsernamePasswordAuthProvider.handleSignup(ctx());
 		}
 	}
@@ -99,9 +105,6 @@ public class Application extends Controller {
 		return new SimpleDateFormat("yyyy-dd-MM HH:mm:ss").format(new Date(t));
 	}
 
-	public static Result uploadFile(){
-		
-		return ok();
-	}
+
 
 }

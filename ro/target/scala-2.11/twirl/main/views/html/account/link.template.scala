@@ -46,7 +46,7 @@ Seq[Any](_display_(/*2.2*/main(Messages("playauthenticate.link.account.title"))/
 }
               /*
                   -- GENERATED --
-                  DATE: Sat Jun 11 23:37:13 BST 2016
+                  DATE: Sun Jun 12 03:17:20 BST 2016
                   SOURCE: D:/roplay/ro/app/views/account/link.scala.html
                   HASH: c85307a053a417915abd43647c1753b84b432c60
                   MATRIX: 805->2|866->55|905->57|941->67|972->72|1039->119|1085->140|1123->158|1154->163

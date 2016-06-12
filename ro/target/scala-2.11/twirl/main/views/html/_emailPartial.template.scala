@@ -52,7 +52,7 @@ Seq[Any](format.raw/*1.44*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Sat Jun 11 23:37:13 BST 2016
+                  DATE: Sun Jun 12 03:17:19 BST 2016
                   SOURCE: D:/roplay/ro/app/views/_emailPartial.scala.html
                   HASH: 764d8d11cc1fd4d0bc3019a52718e5ce1be1de20
                   MATRIX: 813->1|991->43|1019->96|1046->98
