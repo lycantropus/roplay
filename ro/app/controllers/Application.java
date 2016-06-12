@@ -86,6 +86,8 @@ public class Application extends Controller {
 		Ro research = new Ro();
 		User user = getLocalUser(session());
 
+
+		//TODO tratar desta zueira
 		research.setName("teste");
 		research.setOwner(user);
 
@@ -161,15 +163,15 @@ public class Application extends Controller {
 
 	public static Result upload() {
 		Http.MultipartFormData body = request().body().asMultipartFormData();
-		Http.MultipartFormData.FilePart picture = body.getFile("picture");
-		if (picture != null) {
-			String fileName = picture.getFilename();
-			String contentType = picture.getContentType();
-			File file = picture.getFile();
+		Http.MultipartFormData.FilePart uploadFile = body.getFile("uploadfile");
+		if (uploadFile != null) {
+			String fileName = uploadFile.getFilename();
+			String contentType = uploadFile.getContentType();
+			File file = uploadFile.getFile();
 
 			String convertedfile = encodeFileToBase64Binary(file);
 
-			//TODO testar artefactos
+			//TODO tratar de UUIDs
 
 			final Query<Ro> query = MorphiaObject.datastore.createQuery(Ro.class);
 			final List<Ro> ros = query.asList();
@@ -185,15 +187,16 @@ public class Application extends Controller {
 
 			Artifact art= new Artifact();
 
-			art.setTitle("artefacto teste");
+			art.setTitle(fileName);
 			art.setContent(convertedfile);
-			art.setType("image");
+			art.setType(contentType);
 
 			artList.add(art);
 
 			tmpro.setArtifacts(artList);
-			//Gson gson = new Gson();
-			//BasicDBObject obj = (BasicDBObject) JSON.parse(gson.toJson(tmpro));
+
+
+
 			MorphiaObject.datastore.save(tmpro);
 
 			final List<Ro> finalRos = query.asList();
