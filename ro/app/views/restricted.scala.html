@@ -14,8 +14,8 @@
         <input type="submit">
 
     </form>
-    <!--TODO tentar passar o name pelo cabeçalho da view-->
-    <table class="table" style="width:80%">
+
+    <table class="table" style="width:100%">
         <thead>
             <tr>
                 <th>Ro Name</th>
@@ -23,13 +23,23 @@
             </tr>
         </thead>
 
-    <!--<td>@localUser.getIdentifier</td>-->
+
 
     @for(ro<-roList){
+        <div>
         <tr>
             <td>@ro.getName</td>
-            <td>@ro.getOwner.getIdentifier</td>
+            <td>@ro.getOwner</td>
+<td>
+            @form(action = routes.Application.upload, 'enctype -> "multipart/form-data") {
+                <input type="file" name="uploadfile" data-buttonText="Your label here.">
+                <input type="submit" value="Add">
+            }
+
+</td>
             @if(ro.getArtifacts!=null){
+
+
 
 
             @for(artifact<-ro.getArtifacts){
@@ -37,16 +47,17 @@
 
                 }
             }
-            }
 
-
-
-            <td>
-            @form(action = routes.Application.upload, 'enctype -> "multipart/form-data") {
-                <input type="file" name="uploadfile" data-buttonText="Your label here.">
-                <input type="submit" value="Add">
-            }
-            </td>
         </tr>
+        </div>
+
+
+
+
+            }
     </table>
-    }
+        }
+
+
+
+

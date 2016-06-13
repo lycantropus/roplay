@@ -1,358 +1,45 @@
-2016-06-13 04:16:38,245 - [INFO] - from play in pool-4-thread-3 
+2016-06-13 07:38:47,122 - [INFO] - from play in pool-4-thread-3 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2016-06-13 04:17:46,594 - [INFO] - from application in play-internal-execution-context-1 
+2016-06-13 07:38:54,951 - [INFO] - from application in play-internal-execution-context-1 
 Application started!
 
-2016-06-13 04:17:48,315 - [DEBUG] - from application in play-internal-execution-context-1 
+2016-06-13 07:38:56,137 - [DEBUG] - from application in play-internal-execution-context-1 
 ** Morphia datastore: ro
 
-2016-06-13 04:17:48,316 - [INFO] - from application in play-internal-execution-context-1 
+2016-06-13 07:38:56,138 - [INFO] - from application in play-internal-execution-context-1 
 Connected to Database!
 
-2016-06-13 04:17:48,494 - [INFO] - from play in play-internal-execution-context-1 
+2016-06-13 07:38:56,453 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-06-13 04:20:35,191 - [DEBUG] - from application in play-akka.actor.default-dispatcher-13 
+2016-06-13 07:39:35,238 - [DEBUG] - from application in play-akka.actor.default-dispatcher-7 
 Returned with URL: '/authenticate/google'
 
-2016-06-13 04:20:36,547 - [DEBUG] - from application in play-akka.actor.default-dispatcher-13 
-generated redirect URL for dialog: https://accounts.google.com/o/oauth2/auth?client_id=912436160264-ev191lmaculrtniv0qkq4uregdptcuvf.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9000%2Fauthenticate%2Fgoogle&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&response_type=code&state=3c46fec3-4733-4d98-9f51-2519feada3f6
+2016-06-13 07:39:35,257 - [DEBUG] - from application in play-akka.actor.default-dispatcher-7 
+generated redirect URL for dialog: https://accounts.google.com/o/oauth2/auth?client_id=912436160264-ev191lmaculrtniv0qkq4uregdptcuvf.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9000%2Fauthenticate%2Fgoogle&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&response_type=code&state=5daa637c-ed71-4822-84b7-8645bbf96a0f
 
-2016-06-13 04:20:45,321 - [DEBUG] - from application in play-akka.actor.default-dispatcher-12 
-Returned with URL: '/authenticate/google?state=3c46fec3-4733-4d98-9f51-2519feada3f6&code=4/w0QEp6DRwH4-h46jRvdBGsX5r2cuT1Z7Ki5MHqBjUs4'
+2016-06-13 07:39:38,180 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+Returned with URL: '/authenticate/google?state=5daa637c-ed71-4822-84b7-8645bbf96a0f&code=4/M1C5_1ovEKKGEPMwUr1v_MhLTrtoEl7WjRiW_U7R7Zc'
 
-2016-06-13 04:20:52,336 - [DEBUG] - from application in play-akka.actor.default-dispatcher-12 
-{"access_token":"ya29.Ci8AA8F--g7IM6VX3ELfYjYW_t1_83pAiw7m6scVz1-3x1rq3PoT40JBz1DKMomxdQ","token_type":"Bearer","expires_in":3600,"id_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjhlODBmNjc3ZjU5OTgwOWI1MGJhMTAxMjIyMmZjOTJmZDY2NzFhMmYifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6IjFReC1QaGJYbjVaR0dvZDVlV19RaGciLCJhdWQiOiI5MTI0MzYxNjAyNjQtZXYxOTFsbWFjdWxydG5pdjBxa3E0dXJlZ2RwdGN1dmYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTMwNDI1NjA2MTUwMDQyMTgyNjIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiOTEyNDM2MTYwMjY0LWV2MTkxbG1hY3VscnRuaXYwcWtxNHVyZWdkcHRjdXZmLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJtZWNoYW5pY2FsLm1hZ2dvdC4wQGdtYWlsLmNvbSIsImlhdCI6MTQ2NTc4ODA1MiwiZXhwIjoxNDY1NzkxNjUyfQ.pkLbWOA2xWxgnDPHLXaoXq5-EOh-umN7uggsyWmRQb8GPMAYO5CH_AJA1WfDNYGTyXWfsII0TLqA-qd2f5bdPhnVBEwFINhU2G7w-MgRrMUiAvNJCkBIWktGEFfPcxapDHI3rD4RvzHcHq9WspcdJs5cA7wjnRVzi90QcVMiRfqNAP3H8-3JJV8hEqbKaUEJb9d7eMYE20CElbs5n_a9HGck5sUVo9s-uwub2weKMbbouublk23iA43hTJH74FKamPqF0kWeVd0E8qPcEsvDoEE6H5XNaXfF4vc8ySv99Gsm-YgBFafhX1E59J8fXRHiMSTRHyP5IRac1H_aMiGWSw"}
+2016-06-13 07:39:38,823 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
+{"access_token":"ya29.Ci8AA_JdUt2USuOIXr63WYAudL9HjHo04Z-CqMjIkY2hZJLGLQoo8De2eFOGKICAVg","token_type":"Bearer","expires_in":3600,"id_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjhlODBmNjc3ZjU5OTgwOWI1MGJhMTAxMjIyMmZjOTJmZDY2NzFhMmYifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6IkFKY25hUVBETFhhaHJ6a3RoazFsdkEiLCJhdWQiOiI5MTI0MzYxNjAyNjQtZXYxOTFsbWFjdWxydG5pdjBxa3E0dXJlZ2RwdGN1dmYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTMwNDI1NjA2MTUwMDQyMTgyNjIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiOTEyNDM2MTYwMjY0LWV2MTkxbG1hY3VscnRuaXYwcWtxNHVyZWdkcHRjdXZmLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJtZWNoYW5pY2FsLm1hZ2dvdC4wQGdtYWlsLmNvbSIsImlhdCI6MTQ2NTc5OTk3OSwiZXhwIjoxNDY1ODAzNTc5fQ.ZNk2VxGqN6T2nS6yBu0HzlzkxQHR0LyUryYKo4j6lcVdJjW1Yw6OHLc8OGFD8hSthY4tKH4RZBM_TZxZ-CYFT_YFah_3NlIcoO0iLjHmlsRKGTdrdBjroW42B5IMl93aSzGDVKT75njXYaoLBDkWWXkE25-_FX3WMXmCApbJoyzpf0dzR49xn2enibVeub-FsQO9OLZi8UclGisCeiTnOPUTMDOpgVuWtBS1QCI6C-6Ta-UZi50IAggYPTnmjz15v5SL9niwekOn4jyx4V0IUIcM_fH2nfukOe4kIC1fhYEYX2O7mo_KnjC3ty-ItbVsisuV2_I9PbFxS2Q-rG7IEg"}
 
-2016-06-13 04:20:52,707 - [DEBUG] - from application in play-akka.actor.default-dispatcher-12 
+2016-06-13 07:39:39,187 - [DEBUG] - from application in play-akka.actor.default-dispatcher-2 
 {"id":"113042560615004218262","email":"mechanical.maggot.0@gmail.com","verified_email":true,"name":"André Humberto","given_name":"André","family_name":"Humberto","link":"https://plus.google.com/113042560615004218262","picture":"https://lh5.googleusercontent.com/-Yf5rYd2OtDE/AAAAAAAAAAI/AAAAAAAAAEU/0jwWCODtavw/photo.jpg","gender":"male","locale":"pt-PT"}
 
-2016-06-13 05:16:21,426 - [INFO] - from application in play-internal-execution-context-1 
+2016-06-13 07:45:43,922 - [INFO] - from application in play-internal-execution-context-15 
 Application started!
 
-2016-06-13 05:16:22,155 - [DEBUG] - from application in play-internal-execution-context-1 
+2016-06-13 07:45:44,631 - [DEBUG] - from application in play-internal-execution-context-15 
 ** Morphia datastore: ro
 
-2016-06-13 05:16:22,156 - [INFO] - from application in play-internal-execution-context-1 
+2016-06-13 07:45:44,632 - [INFO] - from application in play-internal-execution-context-15 
 Connected to Database!
 
-2016-06-13 05:16:22,273 - [WARN] - from application in play-internal-execution-context-1 
+2016-06-13 07:45:44,762 - [WARN] - from application in play-internal-execution-context-15 
 A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
 
-2016-06-13 05:16:22,274 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 05:22:16,211 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 05:22:16,860 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 05:22:16,860 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 05:22:16,982 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 05:22:16,983 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 05:22:24,772 - [DEBUG] - from application in play-akka.actor.default-dispatcher-22 
-Path where we are coming from (/user) is different than the login URL (/login)
-
-2016-06-13 05:22:27,246 - [DEBUG] - from application in play-akka.actor.default-dispatcher-25 
-Returned with URL: '/authenticate/google'
-
-2016-06-13 05:22:27,246 - [DEBUG] - from application in play-akka.actor.default-dispatcher-25 
-generated redirect URL for dialog: https://accounts.google.com/o/oauth2/auth?client_id=912436160264-ev191lmaculrtniv0qkq4uregdptcuvf.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9000%2Fauthenticate%2Fgoogle&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&response_type=code&state=30d7e75d-f965-48ba-a411-800bb4fb3d67
-
-2016-06-13 05:22:30,303 - [DEBUG] - from application in play-akka.actor.default-dispatcher-30 
-Returned with URL: '/authenticate/google?state=30d7e75d-f965-48ba-a411-800bb4fb3d67&code=4/QhAS63v6DXZ2czTD6R-gjiG5uDTwOWNsmX9al4nA5Hk'
-
-2016-06-13 05:22:30,643 - [DEBUG] - from application in play-akka.actor.default-dispatcher-30 
-{"access_token":"ya29.Ci8AAyWO2ttzamt9xRVwA32J-8utzNqxJLR2QlFiqJb7q0oCjyvdglVfIlD2Ds3kEA","token_type":"Bearer","expires_in":3600,"id_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjhlODBmNjc3ZjU5OTgwOWI1MGJhMTAxMjIyMmZjOTJmZDY2NzFhMmYifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6IkZ3Q25rR0h0YjRPaVJydjFzYmg3UGciLCJhdWQiOiI5MTI0MzYxNjAyNjQtZXYxOTFsbWFjdWxydG5pdjBxa3E0dXJlZ2RwdGN1dmYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTMwNDI1NjA2MTUwMDQyMTgyNjIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiOTEyNDM2MTYwMjY0LWV2MTkxbG1hY3VscnRuaXYwcWtxNHVyZWdkcHRjdXZmLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJtZWNoYW5pY2FsLm1hZ2dvdC4wQGdtYWlsLmNvbSIsImlhdCI6MTQ2NTc5MTc1MSwiZXhwIjoxNDY1Nzk1MzUxfQ.H9cs4nsgSQVxZN6uHN4PLCyq4kbvCWuWrkQFDWbwMzIRNNWX8atQa10KNItIa-iQWe3aJXCPaALLTWMj84fUPyULTWALUedU8Z6J9ItjRqDhw3E6jY_YUm5eEbOBUwELSRNm9GOqGtVVTMhwpPRM-hAUJXh5qOPkH5ztEFjPdO5TA3lNVY27wrSjgRmPNykh2zcFJ0p3YNCzutz2RYwz6LNWkeVvTCmw_7SVCAkxrDDWn3_WoSEKh_GLUHIogkLO6CiimucYAQwDhLvf89VTsItpszm_pCxu7HynVumwBdXkFkannS6UyKXRyc9J6YfcBj-W1BR17WcO2D2p80hU6A"}
-
-2016-06-13 05:22:30,953 - [DEBUG] - from application in play-akka.actor.default-dispatcher-30 
-{"id":"113042560615004218262","email":"mechanical.maggot.0@gmail.com","verified_email":true,"name":"André Humberto","given_name":"André","family_name":"Humberto","link":"https://plus.google.com/113042560615004218262","picture":"https://lh5.googleusercontent.com/-Yf5rYd2OtDE/AAAAAAAAAAI/AAAAAAAAAEU/0jwWCODtavw/photo.jpg","gender":"male","locale":"pt-PT"}
-
-2016-06-13 05:24:03,105 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 05:24:03,697 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 05:24:03,700 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 05:24:03,819 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 05:24:03,820 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 05:27:03,682 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 05:27:04,403 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 05:27:04,403 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 05:27:04,522 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 05:27:04,523 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 05:29:03,355 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 05:29:03,968 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 05:29:03,968 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 05:29:04,089 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 05:29:04,094 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 05:29:04,865 - [ERROR] - from play in play-akka.actor.default-dispatcher-42 
-Cannot invoke the action, eventually got an error: java.lang.NullPointerException
-
-2016-06-13 05:29:05,264 - [ERROR] - from application in play-akka.actor.default-dispatcher-42 
-
-
-! @70con2797 - Internal server error, for (GET) [/user] ->
-
-play.api.Application$$anon$1: Execution exception[[NullPointerException: null]]
-	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.6.jar:2.3.6]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.6.jar:2.3.6]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.6.jar:2.3.6]
-	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.6.jar:2.3.6]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:316) [play_2.11-2.3.6.jar:2.3.6]
-	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:344) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:343) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
-	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.6.jar:2.3.6]
-	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:23) [scala-library-2.11.1.jar:na]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
-	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
-Caused by: java.lang.NullPointerException: null
-	at scala.collection.convert.Wrappers$JListWrapper.iterator(Wrappers.scala:88) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.IterableLike$class.foreach(IterableLike.scala:72) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.AbstractIterable.foreach(Iterable.scala:54) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.TraversableLike$class.map(TraversableLike.scala:245) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.AbstractTraversable.map(Traversable.scala:104) ~[scala-library-2.11.1.jar:na]
-	at views.html.restricted$$anonfun$apply$1.apply(restricted.template.scala:59) ~[classes/:na]
-	at views.html.restricted$$anonfun$apply$1.apply(restricted.template.scala:55) ~[classes/:na]
-	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.Iterator$class.foreach(Iterator.scala:743) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.AbstractIterator.foreach(Iterator.scala:1174) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.IterableLike$class.foreach(IterableLike.scala:72) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.AbstractIterable.foreach(Iterable.scala:54) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.TraversableLike$class.map(TraversableLike.scala:245) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.AbstractTraversable.map(Traversable.scala:104) ~[scala-library-2.11.1.jar:na]
-	at views.html.restricted$.apply(restricted.template.scala:55) ~[classes/:na]
-	at views.html.restricted$.render(restricted.template.scala:77) ~[classes/:na]
-	at views.html.restricted.render(restricted.template.scala) ~[classes/:na]
-	at controllers.Application.restricted(Application.java:68) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.apply(routes_routing.scala:256) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.apply(routes_routing.scala:256) ~[classes/:na]
-	at play.core.Router$HandlerInvokerFactory$$anon$4.resultCall(Router.scala:264) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.core.Router$HandlerInvokerFactory$JavaActionInvokerFactory$$anon$15$$anon$1.invocation(Router.scala:255) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:55) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.GlobalSettings$1.call(GlobalSettings.java:67) ~[play_2.11-2.3.6.jar:2.3.6]
-	at be.objectify.deadbolt.java.actions.RestrictAction.applyRestriction(RestrictAction.java:58) ~[deadbolt-java_2.11-2.3.0-RC1.jar:2.3.0-RC1]
-	at be.objectify.deadbolt.java.actions.AbstractRestrictiveAction.execute(AbstractRestrictiveAction.java:52) ~[deadbolt-java_2.11-2.3.0-RC1.jar:2.3.0-RC1]
-	at be.objectify.deadbolt.java.actions.AbstractDeadboltAction.call(AbstractDeadboltAction.java:122) ~[deadbolt-java_2.11-2.3.0-RC1.jar:2.3.0-RC1]
-	at play.core.j.JavaAction$$anonfun$11.apply(JavaAction.scala:82) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.core.j.JavaAction$$anonfun$11.apply(JavaAction.scala:82) ~[play_2.11-2.3.6.jar:2.3.6]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library-2.11.1.jar:na]
-	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:40) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.6.jar:2.3.6]
-	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:32) ~[play_2.11-2.3.6.jar:2.3.6]
-	at scala.concurrent.impl.Future$.apply(Future.scala:31) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.Future$.apply(Future.scala:492) ~[scala-library-2.11.1.jar:na]
-	at play.core.j.JavaAction$class.apply(JavaAction.scala:82) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.core.Router$HandlerInvokerFactory$JavaActionInvokerFactory$$anon$15$$anon$1.apply(Router.scala:252) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:130) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:130) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:21) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:129) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:128) ~[play_2.11-2.3.6.jar:2.3.6]
-	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
-	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:128) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:121) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:483) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
-	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:483) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
-	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:519) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
-	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:519) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
-	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:496) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
-	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:496) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library-2.11.1.jar:na]
-	... 6 common frames omitted
-
-2016-06-13 05:32:45,767 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 05:32:46,356 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 05:32:46,357 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 05:32:46,474 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 05:32:46,477 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 05:32:47,131 - [ERROR] - from play in play-akka.actor.default-dispatcher-49 
-Cannot invoke the action, eventually got an error: java.lang.NullPointerException
-
-2016-06-13 05:32:47,138 - [ERROR] - from application in play-akka.actor.default-dispatcher-49 
-
-
-! @70coneo17 - Internal server error, for (GET) [/user] ->
-
-play.api.Application$$anon$1: Execution exception[[NullPointerException: null]]
-	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.6.jar:2.3.6]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.6.jar:2.3.6]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.6.jar:2.3.6]
-	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.6.jar:2.3.6]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:316) [play_2.11-2.3.6.jar:2.3.6]
-	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:344) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:343) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
-	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.6.jar:2.3.6]
-	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:23) [scala-library-2.11.1.jar:na]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
-	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
-Caused by: java.lang.NullPointerException: null
-	at scala.collection.convert.Wrappers$JListWrapper.iterator(Wrappers.scala:88) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.IterableLike$class.foreach(IterableLike.scala:72) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.AbstractIterable.foreach(Iterable.scala:54) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.TraversableLike$class.map(TraversableLike.scala:245) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.AbstractTraversable.map(Traversable.scala:104) ~[scala-library-2.11.1.jar:na]
-	at views.html.restricted$$anonfun$apply$1.apply(restricted.template.scala:59) ~[classes/:na]
-	at views.html.restricted$$anonfun$apply$1.apply(restricted.template.scala:55) ~[classes/:na]
-	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.Iterator$class.foreach(Iterator.scala:743) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.AbstractIterator.foreach(Iterator.scala:1174) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.IterableLike$class.foreach(IterableLike.scala:72) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.AbstractIterable.foreach(Iterable.scala:54) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.TraversableLike$class.map(TraversableLike.scala:245) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.AbstractTraversable.map(Traversable.scala:104) ~[scala-library-2.11.1.jar:na]
-	at views.html.restricted$.apply(restricted.template.scala:55) ~[classes/:na]
-	at views.html.restricted$.render(restricted.template.scala:80) ~[classes/:na]
-	at views.html.restricted.render(restricted.template.scala) ~[classes/:na]
-	at controllers.Application.restricted(Application.java:68) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.apply(routes_routing.scala:256) ~[classes/:na]
-	at Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.apply(routes_routing.scala:256) ~[classes/:na]
-	at play.core.Router$HandlerInvokerFactory$$anon$4.resultCall(Router.scala:264) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.core.Router$HandlerInvokerFactory$JavaActionInvokerFactory$$anon$15$$anon$1.invocation(Router.scala:255) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:55) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.GlobalSettings$1.call(GlobalSettings.java:67) ~[play_2.11-2.3.6.jar:2.3.6]
-	at be.objectify.deadbolt.java.actions.RestrictAction.applyRestriction(RestrictAction.java:58) ~[deadbolt-java_2.11-2.3.0-RC1.jar:2.3.0-RC1]
-	at be.objectify.deadbolt.java.actions.AbstractRestrictiveAction.execute(AbstractRestrictiveAction.java:52) ~[deadbolt-java_2.11-2.3.0-RC1.jar:2.3.0-RC1]
-	at be.objectify.deadbolt.java.actions.AbstractDeadboltAction.call(AbstractDeadboltAction.java:122) ~[deadbolt-java_2.11-2.3.0-RC1.jar:2.3.0-RC1]
-	at play.core.j.JavaAction$$anonfun$11.apply(JavaAction.scala:82) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.core.j.JavaAction$$anonfun$11.apply(JavaAction.scala:82) ~[play_2.11-2.3.6.jar:2.3.6]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library-2.11.1.jar:na]
-	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:40) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.6.jar:2.3.6]
-	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:32) ~[play_2.11-2.3.6.jar:2.3.6]
-	at scala.concurrent.impl.Future$.apply(Future.scala:31) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.Future$.apply(Future.scala:492) ~[scala-library-2.11.1.jar:na]
-	at play.core.j.JavaAction$class.apply(JavaAction.scala:82) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.core.Router$HandlerInvokerFactory$JavaActionInvokerFactory$$anon$15$$anon$1.apply(Router.scala:252) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:130) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:130) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.utils.Threads$.withContextClassLoader(Threads.scala:21) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:129) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:128) ~[play_2.11-2.3.6.jar:2.3.6]
-	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
-	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:128) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:121) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:483) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
-	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:483) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
-	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:519) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
-	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:519) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
-	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:496) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
-	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:496) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library-2.11.1.jar:na]
-	... 6 common frames omitted
-
-2016-06-13 05:34:12,027 - [ERROR] - from application in New I/O worker #4 
-
-
-! @70conjjg4 - Internal server error, for (GET) [/user] ->
-
-play.PlayExceptions$CompilationException: Compilation error[Not parsed?]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.6.jar:2.3.6]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
-
-2016-06-13 05:34:53,230 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 05:34:53,901 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 05:34:53,901 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 05:34:54,019 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 05:34:54,020 - [INFO] - from play in play-internal-execution-context-1 
+2016-06-13 07:45:44,764 - [INFO] - from play in play-internal-execution-context-15 
 Application started (Dev)
 
