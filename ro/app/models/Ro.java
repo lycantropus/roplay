@@ -9,6 +9,7 @@ import org.mongodb.morphia.annotations.Reference;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 /**
  * Created by Lycantropus on 12-06-2016.
@@ -19,11 +20,21 @@ public class Ro  {
     @Id
     private ObjectId id;
 
+    private UUID uniqueId;
+
     @Reference
     private User owner;
 
 
     private List<Artifact> artifacts;
+
+    public UUID getUniqueId() {
+        return uniqueId;
+    }
+
+    public void setUniqueId(UUID uniqueId) {
+        this.uniqueId = uniqueId;
+    }
 
     public List<Artifact> getArtifacts() {
         return artifacts;

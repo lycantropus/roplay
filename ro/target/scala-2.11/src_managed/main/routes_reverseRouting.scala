@@ -1,6 +1,6 @@
 // @SOURCE:D:/roplay/ro/conf/routes
-// @HASH:1920331b6399b9534756c5d6ce750f583055c114
-// @DATE:Sun Jun 12 08:54:35 BST 2016
+// @HASH:991b8d8c95affda530fdebda9e5e05738399b34d
+// @DATE:Mon Jun 13 03:08:52 BST 2016
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -43,8 +43,9 @@ def authenticate(provider:String): Call = {
 }
                   
 
+// @LINE:49
 // @LINE:48
-// @LINE:47
+// @LINE:46
 // @LINE:44
 // @LINE:43
 // @LINE:41
@@ -141,11 +142,11 @@ def forgotPassword(email:String = ""): Call = {
 }
                           
 
-// @LINE:47
+// @LINE:48
 class ReverseAssets {
 
 
-// @LINE:47
+// @LINE:48
 def at(file:String): Call = {
    implicit val _rrc = new ReverseRouteContext(Map(("path", "/public")))
    Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[String]].unbind("file", file))
@@ -225,7 +226,8 @@ def doChangePassword(): Call = {
 }
                           
 
-// @LINE:48
+// @LINE:49
+// @LINE:46
 // @LINE:19
 // @LINE:18
 // @LINE:13
@@ -244,10 +246,17 @@ def doSignup(): Call = {
 }
                         
 
-// @LINE:48
+// @LINE:49
 def upload(): Call = {
    import ReverseRouteContext.empty
    Call("POST", _prefix + { _defaultPrefix } + "upload")
+}
+                        
+
+// @LINE:46
+def newRo(): Call = {
+   import ReverseRouteContext.empty
+   Call("POST", _prefix + { _defaultPrefix } + "newRo")
 }
                         
 
@@ -343,8 +352,9 @@ def authenticate : JavascriptReverseRoute = JavascriptReverseRoute(
 }
         
 
+// @LINE:49
 // @LINE:48
-// @LINE:47
+// @LINE:46
 // @LINE:44
 // @LINE:43
 // @LINE:41
@@ -474,11 +484,11 @@ def forgotPassword : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
-// @LINE:47
+// @LINE:48
 class ReverseAssets {
 
 
-// @LINE:47
+// @LINE:48
 def at : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Assets.at",
    """
@@ -594,7 +604,8 @@ def doChangePassword : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
-// @LINE:48
+// @LINE:49
+// @LINE:46
 // @LINE:19
 // @LINE:18
 // @LINE:13
@@ -617,12 +628,23 @@ def doSignup : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
-// @LINE:48
+// @LINE:49
 def upload : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Application.upload",
    """
       function() {
       return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "upload"})
+      }
+   """
+)
+                        
+
+// @LINE:46
+def newRo : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Application.newRo",
+   """
+      function() {
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "newRo"})
       }
    """
 )
@@ -738,8 +760,9 @@ def authenticate(provider:String): play.api.mvc.HandlerRef[_] = new play.api.mvc
 }
         
 
+// @LINE:49
 // @LINE:48
-// @LINE:47
+// @LINE:46
 // @LINE:44
 // @LINE:43
 // @LINE:41
@@ -829,11 +852,11 @@ def forgotPassword(email:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.
 }
                           
 
-// @LINE:47
+// @LINE:48
 class ReverseAssets {
 
 
-// @LINE:47
+// @LINE:48
 def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Assets.at(path, file), HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "at", Seq(classOf[String], classOf[String]), "GET", """ Map static resources from the /public folder to the /assets URL path""", _prefix + """assets/$file<.+>""")
 )
@@ -904,7 +927,8 @@ def doChangePassword(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef
 }
                           
 
-// @LINE:48
+// @LINE:49
+// @LINE:46
 // @LINE:19
 // @LINE:18
 // @LINE:13
@@ -922,9 +946,15 @@ def doSignup(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 )
                       
 
-// @LINE:48
+// @LINE:49
 def upload(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Application.upload(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "upload", Seq(), "POST", """""", _prefix + """upload""")
+)
+                      
+
+// @LINE:46
+def newRo(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Application.newRo(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "newRo", Seq(), "POST", """""", _prefix + """newRo""")
 )
                       
 

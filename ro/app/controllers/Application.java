@@ -10,26 +10,19 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.UUID;
 
-import com.google.gson.Gson;
-import com.mongodb.BasicDBObject;
-import com.mongodb.util.JSON;
 import models.Artifact;
 import org.apache.commons.codec.binary.Base64;
 
-
-//import com.feth.play.module.pa.controllers.routes;
-import com.mongodb.gridfs.GridFS;
-import com.mongodb.gridfs.GridFSInputFile;
 import helper.datasources.MorphiaObject;
 import models.Ro;
 import models.User;
 
-import org.mongodb.morphia.Morphia;
 import org.mongodb.morphia.query.Query;
 import play.Routes;
 
-import play.api.mvc.MultipartFormData;
+import play.data.DynamicForm;
 import play.data.Form;
 
 import play.mvc.*;
@@ -88,10 +81,7 @@ public class Application extends Controller {
 
 
 		//TODO tratar desta zueira
-		research.setName("teste");
-		research.setOwner(user);
 
-		MorphiaObject.datastore.save(research);
 
 		return ok(login.render(MyUsernamePasswordAuthProvider.LOGIN_FORM));
 	}
@@ -161,6 +151,29 @@ public class Application extends Controller {
 		return encodedfile;
 	}
 
+	public static Result newRo()
+	{
+		DynamicForm dynamicForm = Form.form().bindFromRequest();
+		UUID uniqueId= UUID.randomUUID();
+
+		User owner = getLocalUser(session());
+
+		List<Artifact> artifacts = new ArrayList<Artifact>();
+
+		Ro newRo = new Ro();
+
+		newRo.setUniqueId(uniqueId);
+		newRo.setOwner(owner);
+		newRo.setName(dynamicForm.get("roname"));
+		newRo.setArtifacts(artifacts);
+
+		MorphiaObject.datastore.save(newRo);
+
+		final Query<Ro> query = MorphiaObject.datastore.createQuery(Ro.class);
+		final List<Ro> finalRos = query.asList();
+		return ok(restricted.render(getLocalUser(session()), finalRos));
+	}
+
 	public static Result upload() {
 		Http.MultipartFormData body = request().body().asMultipartFormData();
 		Http.MultipartFormData.FilePart uploadFile = body.getFile("uploadfile");
@@ -185,7 +198,7 @@ public class Application extends Controller {
 				artList=new ArrayList<Artifact>();
 			}
 
-			Artifact art= new Artifact();
+			Artifact art = new Artifact();
 
 			art.setTitle(fileName);
 			art.setContent(convertedfile);

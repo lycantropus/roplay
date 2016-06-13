@@ -4,6 +4,8 @@ import org.bson.types.ObjectId;
 import org.mongodb.morphia.annotations.Entity;
 import org.mongodb.morphia.annotations.Id;
 
+import java.util.UUID;
+
 /**
  * Created by Lycantropus on 12-06-2016.
  */
@@ -14,11 +16,21 @@ public class Artifact {
     @Id
     private ObjectId ID;
 
+    private UUID uniqueId;
+
     private String type;
 
     private String title;
 
     private String content;
+
+    public UUID getUniqueId() {
+        return uniqueId;
+    }
+
+    public void setUniqueId(UUID uniqueId) {
+        this.uniqueId = uniqueId;
+    }
 
     public String getTitle() {
         return title;
