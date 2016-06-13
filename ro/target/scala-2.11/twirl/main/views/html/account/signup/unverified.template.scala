@@ -47,10 +47,10 @@ Seq[Any](_display_(/*2.2*/main(Messages("playauthenticate.verify.email.title"))/
 }
               /*
                   -- GENERATED --
-                  DATE: Sun Jun 12 22:41:00 BST 2016
-                  SOURCE: C:/Users/Pedro/Documents/GitHub/roplay/ro/app/views/account/signup/unverified.scala.html
-                  HASH: d572cb64827bfa6da1dfdf94618253d994d4c604
-                  MATRIX: 818->3|879->56|918->58|949->63|979->68|1046->115|1087->131|1160->184|1195->194|1260->239|1289->242
+                  DATE: Mon Jun 13 04:16:56 BST 2016
+                  SOURCE: D:/roplay/ro/app/views/account/signup/unverified.scala.html
+                  HASH: 1d1da98fac20a6f7512b000c24b56d8bcde6e280
+                  MATRIX: 818->2|879->55|918->57|947->60|977->65|1044->112|1083->126|1156->179|1190->188|1255->233|1283->235
                   LINES: 29->2|29->2|29->2|31->4|31->4|31->4|33->6|33->6|34->7|34->7|35->8
                   -- GENERATED --
               */

@@ -28,7 +28,19 @@
     @for(ro<-roList){
         <tr>
             <td>@ro.getName</td>
-            <td>@ro.getOwner</td>
+            <td>@ro.getOwner.getIdentifier</td>
+            @if(ro.getArtifacts!=null){
+
+
+            @for(artifact<-ro.getArtifacts){
+                    <td>@artifact.getTitle</td>
+
+                }
+            }
+            }
+
+
+
             <td>
             @form(action = routes.Application.upload, 'enctype -> "multipart/form-data") {
                 <input type="file" name="uploadfile" data-buttonText="Your label here.">
@@ -36,6 +48,5 @@
             }
             </td>
         </tr>
-    }
     </table>
-}
+    }

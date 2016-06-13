@@ -1,259 +1,325 @@
-2016-06-13 02:08:27,379 - [INFO] - from play in pool-4-thread-3
+2016-06-13 04:16:38,245 - [INFO] - from play in pool-4-thread-3 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2016-06-13 02:09:45,445 - [ERROR] - from application in New I/O worker #1 
-
-
-! @70cnmnl5o - Internal server error, for (GET) [/] ->
-
-play.PlayExceptions$CompilationException: Compilation error[not found: value roname]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.6.jar:2.3.6]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
-
-2016-06-13 02:09:48,497 - [WARN] - from play in New I/O worker #1 
-No application found at invoker init
-
-2016-06-13 02:20:09,568 - [ERROR] - from application in New I/O worker #2 
-
-
-! @70cno7917 - Internal server error, for (GET) [/] ->
-
-play.PlayExceptions$CompilationException: Compilation error[missing arguments for method apply in object form;
-follow this method with `_' if you want to treat it as a partially applied function]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.6.jar:2.3.6]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
-
-2016-06-13 02:20:34,914 - [ERROR] - from application in New I/O worker #2 
-
-
-! @70cno8ke4 - Internal server error, for (GET) [/] ->
-
-play.PlayExceptions$CompilationException: Compilation error[missing arguments for method apply in object form;
-follow this method with `_' if you want to treat it as a partially applied function]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.6.jar:2.3.6]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
-
-2016-06-13 02:20:45,598 - [ERROR] - from application in New I/O worker #2 
-
-
-! @70cno9a93 - Internal server error, for (GET) [/] ->
-
-play.PlayExceptions$CompilationException: Compilation error[missing arguments for method apply in object form;
-follow this method with `_' if you want to treat it as a partially applied function]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.6.jar:2.3.6]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
-
-2016-06-13 02:22:40,473 - [ERROR] - from application in New I/O worker #2 
-
-
-! @70cnofo67 - Internal server error, for (GET) [/] ->
-
-play.PlayExceptions$CompilationException: Compilation error[missing arguments for method apply in object form;
-follow this method with `_' if you want to treat it as a partially applied function]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.6.jar:2.3.6]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
-
-2016-06-13 02:24:48,172 - [INFO] - from application in play-internal-execution-context-1 
+2016-06-13 04:17:46,594 - [INFO] - from application in play-internal-execution-context-1 
 Application started!
 
-2016-06-13 02:24:50,574 - [DEBUG] - from application in play-internal-execution-context-1 
+2016-06-13 04:17:48,315 - [DEBUG] - from application in play-internal-execution-context-1 
 ** Morphia datastore: ro
 
-2016-06-13 02:24:50,574 - [INFO] - from application in play-internal-execution-context-1 
+2016-06-13 04:17:48,316 - [INFO] - from application in play-internal-execution-context-1 
 Connected to Database!
 
-2016-06-13 02:24:51,064 - [INFO] - from play in play-internal-execution-context-1 
+2016-06-13 04:17:48,494 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-06-13 02:25:03,613 - [DEBUG] - from application in play-akka.actor.default-dispatcher-8 
+2016-06-13 04:20:35,191 - [DEBUG] - from application in play-akka.actor.default-dispatcher-13 
+Returned with URL: '/authenticate/google'
+
+2016-06-13 04:20:36,547 - [DEBUG] - from application in play-akka.actor.default-dispatcher-13 
+generated redirect URL for dialog: https://accounts.google.com/o/oauth2/auth?client_id=912436160264-ev191lmaculrtniv0qkq4uregdptcuvf.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9000%2Fauthenticate%2Fgoogle&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&response_type=code&state=3c46fec3-4733-4d98-9f51-2519feada3f6
+
+2016-06-13 04:20:45,321 - [DEBUG] - from application in play-akka.actor.default-dispatcher-12 
+Returned with URL: '/authenticate/google?state=3c46fec3-4733-4d98-9f51-2519feada3f6&code=4/w0QEp6DRwH4-h46jRvdBGsX5r2cuT1Z7Ki5MHqBjUs4'
+
+2016-06-13 04:20:52,336 - [DEBUG] - from application in play-akka.actor.default-dispatcher-12 
+{"access_token":"ya29.Ci8AA8F--g7IM6VX3ELfYjYW_t1_83pAiw7m6scVz1-3x1rq3PoT40JBz1DKMomxdQ","token_type":"Bearer","expires_in":3600,"id_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjhlODBmNjc3ZjU5OTgwOWI1MGJhMTAxMjIyMmZjOTJmZDY2NzFhMmYifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6IjFReC1QaGJYbjVaR0dvZDVlV19RaGciLCJhdWQiOiI5MTI0MzYxNjAyNjQtZXYxOTFsbWFjdWxydG5pdjBxa3E0dXJlZ2RwdGN1dmYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTMwNDI1NjA2MTUwMDQyMTgyNjIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiOTEyNDM2MTYwMjY0LWV2MTkxbG1hY3VscnRuaXYwcWtxNHVyZWdkcHRjdXZmLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJtZWNoYW5pY2FsLm1hZ2dvdC4wQGdtYWlsLmNvbSIsImlhdCI6MTQ2NTc4ODA1MiwiZXhwIjoxNDY1NzkxNjUyfQ.pkLbWOA2xWxgnDPHLXaoXq5-EOh-umN7uggsyWmRQb8GPMAYO5CH_AJA1WfDNYGTyXWfsII0TLqA-qd2f5bdPhnVBEwFINhU2G7w-MgRrMUiAvNJCkBIWktGEFfPcxapDHI3rD4RvzHcHq9WspcdJs5cA7wjnRVzi90QcVMiRfqNAP3H8-3JJV8hEqbKaUEJb9d7eMYE20CElbs5n_a9HGck5sUVo9s-uwub2weKMbbouublk23iA43hTJH74FKamPqF0kWeVd0E8qPcEsvDoEE6H5XNaXfF4vc8ySv99Gsm-YgBFafhX1E59J8fXRHiMSTRHyP5IRac1H_aMiGWSw"}
+
+2016-06-13 04:20:52,707 - [DEBUG] - from application in play-akka.actor.default-dispatcher-12 
+{"id":"113042560615004218262","email":"mechanical.maggot.0@gmail.com","verified_email":true,"name":"André Humberto","given_name":"André","family_name":"Humberto","link":"https://plus.google.com/113042560615004218262","picture":"https://lh5.googleusercontent.com/-Yf5rYd2OtDE/AAAAAAAAAAI/AAAAAAAAAEU/0jwWCODtavw/photo.jpg","gender":"male","locale":"pt-PT"}
+
+2016-06-13 05:16:21,426 - [INFO] - from application in play-internal-execution-context-1 
+Application started!
+
+2016-06-13 05:16:22,155 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: ro
+
+2016-06-13 05:16:22,156 - [INFO] - from application in play-internal-execution-context-1 
+Connected to Database!
+
+2016-06-13 05:16:22,273 - [WARN] - from application in play-internal-execution-context-1 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2016-06-13 05:16:22,274 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-13 05:22:16,211 - [INFO] - from application in play-internal-execution-context-1 
+Application started!
+
+2016-06-13 05:22:16,860 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: ro
+
+2016-06-13 05:22:16,860 - [INFO] - from application in play-internal-execution-context-1 
+Connected to Database!
+
+2016-06-13 05:22:16,982 - [WARN] - from application in play-internal-execution-context-1 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2016-06-13 05:22:16,983 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-13 05:22:24,772 - [DEBUG] - from application in play-akka.actor.default-dispatcher-22 
 Path where we are coming from (/user) is different than the login URL (/login)
 
-2016-06-13 02:25:07,641 - [DEBUG] - from application in play-akka.actor.default-dispatcher-10 
+2016-06-13 05:22:27,246 - [DEBUG] - from application in play-akka.actor.default-dispatcher-25 
 Returned with URL: '/authenticate/google'
 
-2016-06-13 02:25:07,721 - [DEBUG] - from application in play-akka.actor.default-dispatcher-10 
-generated redirect URL for dialog: https://accounts.google.com/o/oauth2/auth?client_id=912436160264-ev191lmaculrtniv0qkq4uregdptcuvf.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9000%2Fauthenticate%2Fgoogle&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&response_type=code&state=3004b6f8-1d80-4768-9a6f-18444349326a
+2016-06-13 05:22:27,246 - [DEBUG] - from application in play-akka.actor.default-dispatcher-25 
+generated redirect URL for dialog: https://accounts.google.com/o/oauth2/auth?client_id=912436160264-ev191lmaculrtniv0qkq4uregdptcuvf.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9000%2Fauthenticate%2Fgoogle&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&response_type=code&state=30d7e75d-f965-48ba-a411-800bb4fb3d67
 
-2016-06-13 02:25:10,278 - [DEBUG] - from application in play-akka.actor.default-dispatcher-7 
-Returned with URL: '/authenticate/google?state=3004b6f8-1d80-4768-9a6f-18444349326a&code=4/uNiWwXiBop2e3YccEnHXnZvNKo3mGhIr5jPwAgpcrBQ'
+2016-06-13 05:22:30,303 - [DEBUG] - from application in play-akka.actor.default-dispatcher-30 
+Returned with URL: '/authenticate/google?state=30d7e75d-f965-48ba-a411-800bb4fb3d67&code=4/QhAS63v6DXZ2czTD6R-gjiG5uDTwOWNsmX9al4nA5Hk'
 
-2016-06-13 02:25:12,466 - [DEBUG] - from application in play-akka.actor.default-dispatcher-7 
-{"access_token":"ya29.Ci8AA7j9Pk-T_Pz4R8FPZ4wQenvA4A5FjGUlOBaOwlowhHvekrKvWC8p6UbvSnqXIQ","token_type":"Bearer","expires_in":3600,"id_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjhlODBmNjc3ZjU5OTgwOWI1MGJhMTAxMjIyMmZjOTJmZDY2NzFhMmYifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6IjF2akE3VmNWekpVOFZTenR4Q2loekEiLCJhdWQiOiI5MTI0MzYxNjAyNjQtZXYxOTFsbWFjdWxydG5pdjBxa3E0dXJlZ2RwdGN1dmYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTMwNDI1NjA2MTUwMDQyMTgyNjIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiOTEyNDM2MTYwMjY0LWV2MTkxbG1hY3VscnRuaXYwcWtxNHVyZWdkcHRjdXZmLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJtZWNoYW5pY2FsLm1hZ2dvdC4wQGdtYWlsLmNvbSIsImlhdCI6MTQ2NTc4MTExMywiZXhwIjoxNDY1Nzg0NzEzfQ.MA0hy72alcnduk7gS1C0H2Tkycu1mFBImSnTn7r_F7QjUyVPPnhbWbNe5alxWl-yYuEJcbWlQeUJeODAGQiShQGnBCRVEPwKW18G2iUDXm5Pim1G20aK2fqKe0o-v0lc2jltPmswyE_MAkIREC0YBCYcHMwtCAL2KZ-WP36mrw6MRRgzB-_JnSWVIbvHry1aD2qteJuGc8pRzsq4Vk4fMoRfZFcLsFiKCtAee7LIzdDRCimnx_LhKY_UmA1OV--ZYSCZ_iwcG0EM8zEfAez0yn7ur7zvyocYCpn55xSuuTsbw8nnLweW4pjsFQIXZXSBbaczIcR_dJ5qPT-zpsUpkg"}
+2016-06-13 05:22:30,643 - [DEBUG] - from application in play-akka.actor.default-dispatcher-30 
+{"access_token":"ya29.Ci8AAyWO2ttzamt9xRVwA32J-8utzNqxJLR2QlFiqJb7q0oCjyvdglVfIlD2Ds3kEA","token_type":"Bearer","expires_in":3600,"id_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjhlODBmNjc3ZjU5OTgwOWI1MGJhMTAxMjIyMmZjOTJmZDY2NzFhMmYifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6IkZ3Q25rR0h0YjRPaVJydjFzYmg3UGciLCJhdWQiOiI5MTI0MzYxNjAyNjQtZXYxOTFsbWFjdWxydG5pdjBxa3E0dXJlZ2RwdGN1dmYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTMwNDI1NjA2MTUwMDQyMTgyNjIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiOTEyNDM2MTYwMjY0LWV2MTkxbG1hY3VscnRuaXYwcWtxNHVyZWdkcHRjdXZmLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJtZWNoYW5pY2FsLm1hZ2dvdC4wQGdtYWlsLmNvbSIsImlhdCI6MTQ2NTc5MTc1MSwiZXhwIjoxNDY1Nzk1MzUxfQ.H9cs4nsgSQVxZN6uHN4PLCyq4kbvCWuWrkQFDWbwMzIRNNWX8atQa10KNItIa-iQWe3aJXCPaALLTWMj84fUPyULTWALUedU8Z6J9ItjRqDhw3E6jY_YUm5eEbOBUwELSRNm9GOqGtVVTMhwpPRM-hAUJXh5qOPkH5ztEFjPdO5TA3lNVY27wrSjgRmPNykh2zcFJ0p3YNCzutz2RYwz6LNWkeVvTCmw_7SVCAkxrDDWn3_WoSEKh_GLUHIogkLO6CiimucYAQwDhLvf89VTsItpszm_pCxu7HynVumwBdXkFkannS6UyKXRyc9J6YfcBj-W1BR17WcO2D2p80hU6A"}
 
-2016-06-13 02:25:12,847 - [DEBUG] - from application in play-akka.actor.default-dispatcher-7 
-{"id":"113042560615004218262","email":"mechanical.maggot.0@gmail.com","verified_email":true,"name":"Andrï¿½ Humberto","given_name":"Andrï¿½","family_name":"Humberto","link":"https://plus.google.com/113042560615004218262","picture":"https://lh5.googleusercontent.com/-Yf5rYd2OtDE/AAAAAAAAAAI/AAAAAAAAAEU/0jwWCODtavw/photo.jpg","gender":"male","locale":"pt-PT"}
+2016-06-13 05:22:30,953 - [DEBUG] - from application in play-akka.actor.default-dispatcher-30 
+{"id":"113042560615004218262","email":"mechanical.maggot.0@gmail.com","verified_email":true,"name":"André Humberto","given_name":"André","family_name":"Humberto","link":"https://plus.google.com/113042560615004218262","picture":"https://lh5.googleusercontent.com/-Yf5rYd2OtDE/AAAAAAAAAAI/AAAAAAAAAEU/0jwWCODtavw/photo.jpg","gender":"male","locale":"pt-PT"}
 
-2016-06-13 02:27:03,834 - [INFO] - from application in play-internal-execution-context-1 
+2016-06-13 05:24:03,105 - [INFO] - from application in play-internal-execution-context-1 
 Application started!
 
-2016-06-13 02:27:04,447 - [DEBUG] - from application in play-internal-execution-context-1 
+2016-06-13 05:24:03,697 - [DEBUG] - from application in play-internal-execution-context-1 
 ** Morphia datastore: ro
 
-2016-06-13 02:27:04,448 - [INFO] - from application in play-internal-execution-context-1 
+2016-06-13 05:24:03,700 - [INFO] - from application in play-internal-execution-context-1 
 Connected to Database!
 
-2016-06-13 02:27:04,568 - [WARN] - from application in play-internal-execution-context-1 
+2016-06-13 05:24:03,819 - [WARN] - from application in play-internal-execution-context-1 
 A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
 
-2016-06-13 02:27:04,593 - [INFO] - from play in play-internal-execution-context-1 
+2016-06-13 05:24:03,820 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-06-13 02:29:09,101 - [INFO] - from application in play-internal-execution-context-3 
+2016-06-13 05:27:03,682 - [INFO] - from application in play-internal-execution-context-1 
 Application started!
 
-2016-06-13 02:29:09,699 - [DEBUG] - from application in play-internal-execution-context-3 
+2016-06-13 05:27:04,403 - [DEBUG] - from application in play-internal-execution-context-1 
 ** Morphia datastore: ro
 
-2016-06-13 02:29:09,700 - [INFO] - from application in play-internal-execution-context-3 
+2016-06-13 05:27:04,403 - [INFO] - from application in play-internal-execution-context-1 
 Connected to Database!
 
-2016-06-13 02:29:09,818 - [WARN] - from application in play-internal-execution-context-3 
+2016-06-13 05:27:04,522 - [WARN] - from application in play-internal-execution-context-1 
 A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
 
-2016-06-13 02:29:09,822 - [INFO] - from play in play-internal-execution-context-3 
+2016-06-13 05:27:04,523 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-06-13 02:38:37,550 - [INFO] - from application in play-internal-execution-context-3 
+2016-06-13 05:29:03,355 - [INFO] - from application in play-internal-execution-context-1 
 Application started!
 
-2016-06-13 02:38:38,158 - [DEBUG] - from application in play-internal-execution-context-3 
+2016-06-13 05:29:03,968 - [DEBUG] - from application in play-internal-execution-context-1 
 ** Morphia datastore: ro
 
-2016-06-13 02:38:38,158 - [INFO] - from application in play-internal-execution-context-3 
+2016-06-13 05:29:03,968 - [INFO] - from application in play-internal-execution-context-1 
 Connected to Database!
 
-2016-06-13 02:38:38,276 - [WARN] - from application in play-internal-execution-context-3 
+2016-06-13 05:29:04,089 - [WARN] - from application in play-internal-execution-context-1 
 A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
 
-2016-06-13 02:38:38,277 - [INFO] - from play in play-internal-execution-context-3 
+2016-06-13 05:29:04,094 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-06-13 02:39:26,178 - [INFO] - from application in play-internal-execution-context-3 
+2016-06-13 05:29:04,865 - [ERROR] - from play in play-akka.actor.default-dispatcher-42 
+Cannot invoke the action, eventually got an error: java.lang.NullPointerException
+
+2016-06-13 05:29:05,264 - [ERROR] - from application in play-akka.actor.default-dispatcher-42 
+
+
+! @70con2797 - Internal server error, for (GET) [/user] ->
+
+play.api.Application$$anon$1: Execution exception[[NullPointerException: null]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.6.jar:2.3.6]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:316) [play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:344) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:343) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:23) [scala-library-2.11.1.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
+Caused by: java.lang.NullPointerException: null
+	at scala.collection.convert.Wrappers$JListWrapper.iterator(Wrappers.scala:88) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.IterableLike$class.foreach(IterableLike.scala:72) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:54) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:245) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.AbstractTraversable.map(Traversable.scala:104) ~[scala-library-2.11.1.jar:na]
+	at views.html.restricted$$anonfun$apply$1.apply(restricted.template.scala:59) ~[classes/:na]
+	at views.html.restricted$$anonfun$apply$1.apply(restricted.template.scala:55) ~[classes/:na]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.Iterator$class.foreach(Iterator.scala:743) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1174) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.IterableLike$class.foreach(IterableLike.scala:72) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:54) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:245) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.AbstractTraversable.map(Traversable.scala:104) ~[scala-library-2.11.1.jar:na]
+	at views.html.restricted$.apply(restricted.template.scala:55) ~[classes/:na]
+	at views.html.restricted$.render(restricted.template.scala:77) ~[classes/:na]
+	at views.html.restricted.render(restricted.template.scala) ~[classes/:na]
+	at controllers.Application.restricted(Application.java:68) ~[classes/:na]
+	at Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.apply(routes_routing.scala:256) ~[classes/:na]
+	at Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.apply(routes_routing.scala:256) ~[classes/:na]
+	at play.core.Router$HandlerInvokerFactory$$anon$4.resultCall(Router.scala:264) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.Router$HandlerInvokerFactory$JavaActionInvokerFactory$$anon$15$$anon$1.invocation(Router.scala:255) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:55) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.GlobalSettings$1.call(GlobalSettings.java:67) ~[play_2.11-2.3.6.jar:2.3.6]
+	at be.objectify.deadbolt.java.actions.RestrictAction.applyRestriction(RestrictAction.java:58) ~[deadbolt-java_2.11-2.3.0-RC1.jar:2.3.0-RC1]
+	at be.objectify.deadbolt.java.actions.AbstractRestrictiveAction.execute(AbstractRestrictiveAction.java:52) ~[deadbolt-java_2.11-2.3.0-RC1.jar:2.3.0-RC1]
+	at be.objectify.deadbolt.java.actions.AbstractDeadboltAction.call(AbstractDeadboltAction.java:122) ~[deadbolt-java_2.11-2.3.0-RC1.jar:2.3.0-RC1]
+	at play.core.j.JavaAction$$anonfun$11.apply(JavaAction.scala:82) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.j.JavaAction$$anonfun$11.apply(JavaAction.scala:82) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library-2.11.1.jar:na]
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:40) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:32) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$.apply(Future.scala:31) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$.apply(Future.scala:492) ~[scala-library-2.11.1.jar:na]
+	at play.core.j.JavaAction$class.apply(JavaAction.scala:82) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.Router$HandlerInvokerFactory$JavaActionInvokerFactory$$anon$15$$anon$1.apply(Router.scala:252) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:130) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:130) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:21) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:129) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:128) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
+	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:128) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:121) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:483) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:483) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:519) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:519) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:496) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:496) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library-2.11.1.jar:na]
+	... 6 common frames omitted
+
+2016-06-13 05:32:45,767 - [INFO] - from application in play-internal-execution-context-1 
 Application started!
 
-2016-06-13 02:39:26,802 - [DEBUG] - from application in play-internal-execution-context-3 
+2016-06-13 05:32:46,356 - [DEBUG] - from application in play-internal-execution-context-1 
 ** Morphia datastore: ro
 
-2016-06-13 02:39:26,802 - [INFO] - from application in play-internal-execution-context-3 
+2016-06-13 05:32:46,357 - [INFO] - from application in play-internal-execution-context-1 
 Connected to Database!
 
-2016-06-13 02:39:26,921 - [WARN] - from application in play-internal-execution-context-3 
+2016-06-13 05:32:46,474 - [WARN] - from application in play-internal-execution-context-1 
 A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
 
-2016-06-13 02:39:26,922 - [INFO] - from play in play-internal-execution-context-3 
+2016-06-13 05:32:46,477 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-06-13 02:40:38,368 - [INFO] - from application in play-internal-execution-context-3 
-Application started!
+2016-06-13 05:32:47,131 - [ERROR] - from play in play-akka.actor.default-dispatcher-49 
+Cannot invoke the action, eventually got an error: java.lang.NullPointerException
 
-2016-06-13 02:40:38,972 - [DEBUG] - from application in play-internal-execution-context-3 
-** Morphia datastore: ro
-
-2016-06-13 02:40:38,972 - [INFO] - from application in play-internal-execution-context-3 
-Connected to Database!
-
-2016-06-13 02:40:39,089 - [WARN] - from application in play-internal-execution-context-3 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 02:40:39,090 - [INFO] - from play in play-internal-execution-context-3 
-Application started (Dev)
-
-2016-06-13 02:43:45,633 - [ERROR] - from application in New I/O worker #7 
+2016-06-13 05:32:47,138 - [ERROR] - from application in play-akka.actor.default-dispatcher-49 
 
 
-! @70co19nla - Internal server error, for (GET) [/user] ->
+! @70coneo17 - Internal server error, for (GET) [/user] ->
 
-play.PlayExceptions$CompilationException: Compilation error[not found: value roname]
+play.api.Application$$anon$1: Execution exception[[NullPointerException: null]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.6.jar:2.3.6]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.6.jar:2.3.6]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:316) [play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:344) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:343) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:23) [scala-library-2.11.1.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.4.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.4.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
+Caused by: java.lang.NullPointerException: null
+	at scala.collection.convert.Wrappers$JListWrapper.iterator(Wrappers.scala:88) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.IterableLike$class.foreach(IterableLike.scala:72) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:54) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:245) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.AbstractTraversable.map(Traversable.scala:104) ~[scala-library-2.11.1.jar:na]
+	at views.html.restricted$$anonfun$apply$1.apply(restricted.template.scala:59) ~[classes/:na]
+	at views.html.restricted$$anonfun$apply$1.apply(restricted.template.scala:55) ~[classes/:na]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.Iterator$class.foreach(Iterator.scala:743) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1174) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.IterableLike$class.foreach(IterableLike.scala:72) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:54) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:245) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.AbstractTraversable.map(Traversable.scala:104) ~[scala-library-2.11.1.jar:na]
+	at views.html.restricted$.apply(restricted.template.scala:55) ~[classes/:na]
+	at views.html.restricted$.render(restricted.template.scala:80) ~[classes/:na]
+	at views.html.restricted.render(restricted.template.scala) ~[classes/:na]
+	at controllers.Application.restricted(Application.java:68) ~[classes/:na]
+	at Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.apply(routes_routing.scala:256) ~[classes/:na]
+	at Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.apply(routes_routing.scala:256) ~[classes/:na]
+	at play.core.Router$HandlerInvokerFactory$$anon$4.resultCall(Router.scala:264) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.Router$HandlerInvokerFactory$JavaActionInvokerFactory$$anon$15$$anon$1.invocation(Router.scala:255) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:55) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.GlobalSettings$1.call(GlobalSettings.java:67) ~[play_2.11-2.3.6.jar:2.3.6]
+	at be.objectify.deadbolt.java.actions.RestrictAction.applyRestriction(RestrictAction.java:58) ~[deadbolt-java_2.11-2.3.0-RC1.jar:2.3.0-RC1]
+	at be.objectify.deadbolt.java.actions.AbstractRestrictiveAction.execute(AbstractRestrictiveAction.java:52) ~[deadbolt-java_2.11-2.3.0-RC1.jar:2.3.0-RC1]
+	at be.objectify.deadbolt.java.actions.AbstractDeadboltAction.call(AbstractDeadboltAction.java:122) ~[deadbolt-java_2.11-2.3.0-RC1.jar:2.3.0-RC1]
+	at play.core.j.JavaAction$$anonfun$11.apply(JavaAction.scala:82) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.j.JavaAction$$anonfun$11.apply(JavaAction.scala:82) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library-2.11.1.jar:na]
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:40) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:32) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$.apply(Future.scala:31) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$.apply(Future.scala:492) ~[scala-library-2.11.1.jar:na]
+	at play.core.j.JavaAction$class.apply(JavaAction.scala:82) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.Router$HandlerInvokerFactory$JavaActionInvokerFactory$$anon$15$$anon$1.apply(Router.scala:252) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:130) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4$$anonfun$apply$5.apply(Action.scala:130) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:21) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:129) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.mvc.Action$$anonfun$apply$1$$anonfun$apply$4.apply(Action.scala:128) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
+	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:128) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.mvc.Action$$anonfun$apply$1.apply(Action.scala:121) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:483) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$mapM$1.apply(Iteratee.scala:483) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:519) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMapM$1.apply(Iteratee.scala:519) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:496) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at play.api.libs.iteratee.Iteratee$$anonfun$flatMap$1$$anonfun$apply$14.apply(Iteratee.scala:496) ~[play-iteratees_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library-2.11.1.jar:na]
+	... 6 common frames omitted
+
+2016-06-13 05:34:12,027 - [ERROR] - from application in New I/O worker #4 
+
+
+! @70conjjg4 - Internal server error, for (GET) [/user] ->
+
+play.PlayExceptions$CompilationException: Compilation error[Not parsed?]
 	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
 	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
 	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
@@ -275,559 +341,18 @@ play.PlayExceptions$CompilationException: Compilation error[not found: value ron
 	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
 	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
 
-2016-06-13 02:50:53,183 - [INFO] - from application in play-internal-execution-context-3 
+2016-06-13 05:34:53,230 - [INFO] - from application in play-internal-execution-context-1 
 Application started!
 
-2016-06-13 02:50:53,781 - [DEBUG] - from application in play-internal-execution-context-3 
+2016-06-13 05:34:53,901 - [DEBUG] - from application in play-internal-execution-context-1 
 ** Morphia datastore: ro
 
-2016-06-13 02:50:53,782 - [INFO] - from application in play-internal-execution-context-3 
+2016-06-13 05:34:53,901 - [INFO] - from application in play-internal-execution-context-1 
 Connected to Database!
 
-2016-06-13 02:50:53,940 - [WARN] - from application in play-internal-execution-context-3 
+2016-06-13 05:34:54,019 - [WARN] - from application in play-internal-execution-context-1 
 A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
 
-2016-06-13 02:50:53,943 - [INFO] - from play in play-internal-execution-context-3 
-Application started (Dev)
-
-2016-06-13 02:54:08,978 - [INFO] - from application in play-internal-execution-context-3 
-Application started!
-
-2016-06-13 02:54:09,595 - [DEBUG] - from application in play-internal-execution-context-3 
-** Morphia datastore: ro
-
-2016-06-13 02:54:09,595 - [INFO] - from application in play-internal-execution-context-3 
-Connected to Database!
-
-2016-06-13 02:54:09,714 - [WARN] - from application in play-internal-execution-context-3 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 02:54:09,717 - [INFO] - from play in play-internal-execution-context-3 
-Application started (Dev)
-
-2016-06-13 02:55:36,976 - [INFO] - from application in play-internal-execution-context-3 
-Application started!
-
-2016-06-13 02:55:37,580 - [DEBUG] - from application in play-internal-execution-context-3 
-** Morphia datastore: ro
-
-2016-06-13 02:55:37,581 - [INFO] - from application in play-internal-execution-context-3 
-Connected to Database!
-
-2016-06-13 02:55:37,712 - [WARN] - from application in play-internal-execution-context-3 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 02:55:37,715 - [INFO] - from play in play-internal-execution-context-3 
-Application started (Dev)
-
-2016-06-13 03:09:09,692 - [INFO] - from application in play-internal-execution-context-3 
-Application started!
-
-2016-06-13 03:09:10,309 - [DEBUG] - from application in play-internal-execution-context-3 
-** Morphia datastore: ro
-
-2016-06-13 03:09:10,309 - [INFO] - from application in play-internal-execution-context-3 
-Connected to Database!
-
-2016-06-13 03:09:10,426 - [WARN] - from application in play-internal-execution-context-3 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 03:09:10,426 - [INFO] - from play in play-internal-execution-context-3 
-Application started (Dev)
-
-2016-06-13 03:09:43,462 - [INFO] - from application in play-internal-execution-context-3 
-Application started!
-
-2016-06-13 03:09:44,056 - [DEBUG] - from application in play-internal-execution-context-3 
-** Morphia datastore: ro
-
-2016-06-13 03:09:44,057 - [INFO] - from application in play-internal-execution-context-3 
-Connected to Database!
-
-2016-06-13 03:09:44,176 - [WARN] - from application in play-internal-execution-context-3 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 03:09:44,177 - [INFO] - from play in play-internal-execution-context-3 
-Application started (Dev)
-
-2016-06-13 03:10:48,211 - [INFO] - from application in play-internal-execution-context-3 
-Application started!
-
-2016-06-13 03:10:48,807 - [DEBUG] - from application in play-internal-execution-context-3 
-** Morphia datastore: ro
-
-2016-06-13 03:10:48,807 - [INFO] - from application in play-internal-execution-context-3 
-Connected to Database!
-
-2016-06-13 03:10:48,926 - [WARN] - from application in play-internal-execution-context-3 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 03:10:48,927 - [INFO] - from play in play-internal-execution-context-3 
-=======
-2016-06-12 22:40:53,688 - [INFO] - from play in pool-4-thread-3 
-Listening for HTTP on /0:0:0:0:0:0:0:0:9000
-
-2016-06-12 22:41:16,362 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-12 22:41:17,138 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-12 22:41:17,139 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-12 22:41:17,266 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-12 23:55:00,862 - [DEBUG] - from application in play-akka.actor.default-dispatcher-8 
-Returned with URL: '/authenticate/google'
-
-2016-06-12 23:55:00,877 - [DEBUG] - from application in play-akka.actor.default-dispatcher-8 
-generated redirect URL for dialog: https://accounts.google.com/o/oauth2/auth?client_id=912436160264-ev191lmaculrtniv0qkq4uregdptcuvf.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9000%2Fauthenticate%2Fgoogle&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&response_type=code&state=a1dbf2c5-0ea1-46ac-87dc-7da6645f4dea
-
-2016-06-12 23:55:03,261 - [DEBUG] - from application in play-akka.actor.default-dispatcher-3 
-Returned with URL: '/authenticate/google?state=a1dbf2c5-0ea1-46ac-87dc-7da6645f4dea&code=4/9TC7K89cClm0GOScDwbsHUCUO1ez_z9jhAfm0q9MjFw'
-
-2016-06-12 23:55:03,900 - [DEBUG] - from application in play-akka.actor.default-dispatcher-3 
-{"access_token":"ya29.Ci__AoMbHV_gSV_yEFtFCJTiOmYoImLKHtvcYaqEOjLu7cRfpozSBCW4J0k8JEU5sA","token_type":"Bearer","expires_in":3600,"id_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjhlODBmNjc3ZjU5OTgwOWI1MGJhMTAxMjIyMmZjOTJmZDY2NzFhMmYifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6IkEtcExmeEhjeWI1R0dJUkg1UjkxcmciLCJhdWQiOiI5MTI0MzYxNjAyNjQtZXYxOTFsbWFjdWxydG5pdjBxa3E0dXJlZ2RwdGN1dmYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTA3MDU1NzAzMjg4NjAzNzc0MTQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiOTEyNDM2MTYwMjY0LWV2MTkxbG1hY3VscnRuaXYwcWtxNHVyZWdkcHRjdXZmLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJlc3F1aWxvZmV1cEBnbWFpbC5jb20iLCJpYXQiOjE0NjU3NzIxMDcsImV4cCI6MTQ2NTc3NTcwN30.ACmWaI4xzpGOQFOQq0c6xXjOfPpPWnlRSv1c3RyMeGqIhaEyfE7R5X1YdpsreOj5TpaaCy9ZjfL1zcBwE42qyg4nSfhyj0jH3bEunLjhnstU-aRL3bZ5uHOv3sSCuXxRZvtp70RnmNysWFUgraYorTrYLmGu9dolb6Z5oI3558Okg64TQGvubMJzDS-CnYTlhQSMR1Y7eKzB-CqEsMHZ2AzOLHMb2H_LxB5WS1JgJi-0NfLEJPeCmkLHZha_CqM1GKV2hr7htgaZ-6XzWSbMIBk9xWWBuSSZ3QE8cYzApoKGb4hnuZiHwYICtSq7vTR1AstJLNDnIas8oIud7a7oUg"}
-
-2016-06-12 23:55:04,123 - [DEBUG] - from application in play-akka.actor.default-dispatcher-3 
-{"id":"110705570328860377414","email":"esquilofeup@gmail.com","verified_email":true,"name":"Pedro Martins","given_name":"Pedro","family_name":"Martins","link":"https://plus.google.com/110705570328860377414","picture":"https://lh6.googleusercontent.com/-Gf9xCyou6qU/AAAAAAAAAAI/AAAAAAAAABA/P8Di4K6YuZg/photo.jpg","gender":"male","locale":"en"}
-
-2016-06-13 00:42:03,007 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 00:42:03,594 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 00:42:03,595 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 00:42:03,712 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 00:42:03,717 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 01:38:44,919 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 01:38:45,504 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 01:38:45,505 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 01:38:45,622 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 01:38:45,628 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 01:45:57,103 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 01:45:57,690 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 01:45:57,691 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 01:45:57,808 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 01:45:57,813 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 01:52:27,634 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 01:52:28,217 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 01:52:28,218 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 01:52:28,334 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 01:52:28,336 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 01:55:10,005 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 01:55:10,591 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 01:55:10,592 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 01:55:10,709 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 01:55:10,711 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 01:56:09,366 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 01:56:09,994 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 01:56:09,994 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 01:56:10,111 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 01:56:10,113 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 02:01:11,430 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 02:01:12,017 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 02:01:12,018 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 02:01:12,134 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 02:01:12,136 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 02:01:25,908 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 02:01:26,494 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 02:01:26,494 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 02:01:26,611 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 02:01:26,612 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 02:01:39,049 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 02:01:39,632 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 02:01:39,632 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 02:01:39,749 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 02:01:39,750 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 02:01:56,103 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 02:01:56,686 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 02:01:56,687 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 02:01:56,803 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 02:01:56,804 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 02:10:15,837 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 02:10:16,422 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 02:10:16,423 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 02:10:16,539 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 02:10:16,541 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 02:11:14,367 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 02:11:14,950 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 02:11:14,951 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 02:11:15,067 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 02:11:15,069 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 02:13:18,900 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 02:13:19,483 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 02:13:19,483 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 02:13:19,600 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 02:13:19,602 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 02:13:27,291 - [ERROR] - from application in New I/O worker #5 
-
-
-! @70cnnaboo - Internal server error, for (GET) [/] ->
-
-play.PlayExceptions$UnexpectedException: Unexpected exception[FileNotFoundException: C:\Users\Pedro\Documents\GitHub\roplay\ro\target\scala-2.11\classes\views\html\main$$anonfun$apply$2.class (O processo nï¿½o pode aceder ao ficheiro porque este estï¿½ a ser utilizado por outro processo)]
-	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:237) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
-	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.6.jar:2.3.6]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.6.jar:2.3.6]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
-Caused by: java.io.FileNotFoundException: C:\Users\Pedro\Documents\GitHub\roplay\ro\target\scala-2.11\classes\views\html\main$$anonfun$apply$2.class (O processo nï¿½o pode aceder ao ficheiro porque este estï¿½ a ser utilizado por outro processo)
-	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_91]
-	at java.io.FileOutputStream.open(Unknown Source) ~[na:1.8.0_91]
-	at java.io.FileOutputStream.<init>(Unknown Source) ~[na:1.8.0_91]
-	at java.io.FileOutputStream.<init>(Unknown Source) ~[na:1.8.0_91]
-	at play.core.enhancers.PropertiesEnhancer.rewriteAccess(PropertiesEnhancer.java:197) ~[build-link-2.3.6.jar:2.3.6]
-	at play.PlayCommands$$anonfun$PostCompile$1$$anonfun$10.apply(PlayCommands.scala:100) ~[na:na]
-	at play.PlayCommands$$anonfun$PostCompile$1$$anonfun$10.apply(PlayCommands.scala:100) ~[na:na]
-	at scala.collection.TraversableLike$$anonfun$filter$1.apply(TraversableLike.scala:264) ~[na:na]
-	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:47) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.TraversableLike$class.filter(TraversableLike.scala:263) ~[scala-library-2.11.1.jar:na]
-	at scala.collection.AbstractTraversable.filter(Traversable.scala:105) ~[scala-library-2.11.1.jar:na]
-	at play.PlayCommands$$anonfun$PostCompile$1.apply(PlayCommands.scala:100) ~[na:na]
-	at play.PlayCommands$$anonfun$PostCompile$1.apply(PlayCommands.scala:76) ~[na:na]
-	at scala.Function8$$anonfun$tupled$1.apply(Function8.scala:35) ~[scala-library-2.11.1.jar:na]
-	at scala.Function8$$anonfun$tupled$1.apply(Function8.scala:34) ~[scala-library-2.11.1.jar:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47) ~[scala-library-2.11.1.jar:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:42) ~[na:na]
-	at sbt.std.Transform$$anon$4.work(System.scala:64) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:244) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237) ~[na:na]
-	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:160) ~[na:na]
-	at sbt.CompletionService$$anon$2.call(CompletionService.scala:30) ~[na:na]
-	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_91]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_91]
-	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_91]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_91]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_91]
-	at java.lang.Thread.run(Unknown Source) [na:1.8.0_91]
-
-2016-06-13 02:13:36,327 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 02:13:36,913 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 02:13:36,913 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 02:13:37,030 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 02:13:37,032 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 02:18:05,529 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 02:18:06,113 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 02:18:06,113 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 02:18:06,230 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 02:18:06,231 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 02:22:48,226 - [DEBUG] - from application in play-akka.actor.default-dispatcher-124 
-Path where we are coming from (/user) is different than the login URL (/login)
-
-2016-06-13 02:22:53,794 - [DEBUG] - from application in play-akka.actor.default-dispatcher-120 
-Returned with URL: '/authenticate/google'
-
-2016-06-13 02:22:53,795 - [DEBUG] - from application in play-akka.actor.default-dispatcher-120 
-generated redirect URL for dialog: https://accounts.google.com/o/oauth2/auth?client_id=912436160264-ev191lmaculrtniv0qkq4uregdptcuvf.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9000%2Fauthenticate%2Fgoogle&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&response_type=code&state=47f5b0d3-e601-4b3f-a79b-96f84399c8ae
-
-2016-06-13 02:22:54,028 - [DEBUG] - from application in play-akka.actor.default-dispatcher-120 
-Returned with URL: '/authenticate/google?state=47f5b0d3-e601-4b3f-a79b-96f84399c8ae&code=4/bh8K0JJNxJIR5fpOcRWmdSB2cXN30NbMBFNehhYryww'
-
-2016-06-13 02:22:54,299 - [DEBUG] - from application in play-akka.actor.default-dispatcher-120 
-{"access_token":"ya29.Ci8AAwbTjdCn4oZ6o-KZqiJDDntehswuw6F_lgKFPVzWg_BvNuCJ8n9OfjLGkX8KKQ","token_type":"Bearer","expires_in":3600,"id_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjhlODBmNjc3ZjU5OTgwOWI1MGJhMTAxMjIyMmZjOTJmZDY2NzFhMmYifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6ImlobmYwc2psYXZTWk5DTHk5ZW1aT2ciLCJhdWQiOiI5MTI0MzYxNjAyNjQtZXYxOTFsbWFjdWxydG5pdjBxa3E0dXJlZ2RwdGN1dmYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTA3MDU1NzAzMjg4NjAzNzc0MTQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiOTEyNDM2MTYwMjY0LWV2MTkxbG1hY3VscnRuaXYwcWtxNHVyZWdkcHRjdXZmLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJlc3F1aWxvZmV1cEBnbWFpbC5jb20iLCJpYXQiOjE0NjU3ODA5NzcsImV4cCI6MTQ2NTc4NDU3N30.ABWkJlgAe0NWtP4NU0vu5UtnYtGqaiS-Hq-aC-dPhGq77IkEeqVoZ_RY3xB9mVSZzkKxSF87NcJlwwKppO5tOaNNt7jni-Q-OFpbHA6gXYQifpcI4i0krX_X2WVVr7nh6TbE0ErR0mK5wJwcNDhfzPj62_MyOrsxtMQyGJw-YIIZjFjCcmN7c4MHkfmFN_yAL47G0iACkhEw1g0bplhlKY2sJe--e53D7gMzd4o0HZ2mNBqedQpwAKKw0MhoVBjUtVzJAtftHYIe_UZyBvRBrMaNK-x916ojGC698leMm0kmFQ3jFoLj5br3i4ORoaXoBw3SO2WRb7hqEeF5gn5ikg"}
-
-2016-06-13 02:22:54,509 - [DEBUG] - from application in play-akka.actor.default-dispatcher-120 
-{"id":"110705570328860377414","email":"esquilofeup@gmail.com","verified_email":true,"name":"Pedro Martins","given_name":"Pedro","family_name":"Martins","link":"https://plus.google.com/110705570328860377414","picture":"https://lh6.googleusercontent.com/-Gf9xCyou6qU/AAAAAAAAAAI/AAAAAAAAABA/P8Di4K6YuZg/photo.jpg","gender":"male","locale":"en"}
-
-2016-06-13 02:30:05,563 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 02:30:06,148 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 02:30:06,148 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 02:30:06,265 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 02:30:06,266 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 02:34:15,128 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 02:34:15,710 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 02:34:15,711 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 02:34:15,829 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 02:34:15,831 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 02:40:50,755 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 02:40:51,342 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 02:40:51,342 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 02:40:51,460 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 02:40:51,461 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 03:05:06,733 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 03:05:07,317 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 03:05:07,317 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 03:05:07,434 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 03:05:07,436 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 03:05:40,218 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 03:05:40,802 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 03:05:40,803 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 03:05:40,918 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 03:05:40,920 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 03:18:55,828 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 03:18:56,415 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 03:18:56,416 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 03:18:56,532 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 03:18:56,534 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 03:19:46,994 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 03:19:47,588 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 03:19:47,588 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 03:19:47,704 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 03:19:47,707 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 03:25:04,552 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 03:25:05,137 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 03:25:05,138 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 03:25:05,253 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 03:25:05,255 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2016-06-13 03:51:09,937 - [INFO] - from application in play-internal-execution-context-1 
-Application started!
-
-2016-06-13 03:51:10,520 - [DEBUG] - from application in play-internal-execution-context-1 
-** Morphia datastore: ro
-
-2016-06-13 03:51:10,520 - [INFO] - from application in play-internal-execution-context-1 
-Connected to Database!
-
-2016-06-13 03:51:10,636 - [WARN] - from application in play-internal-execution-context-1 
-A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
-
-2016-06-13 03:51:10,638 - [INFO] - from play in play-internal-execution-context-1 
-
+2016-06-13 05:34:54,020 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 

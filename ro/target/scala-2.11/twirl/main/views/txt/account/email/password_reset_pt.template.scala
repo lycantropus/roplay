@@ -48,10 +48,10 @@ A equipa do PlayAuthenticate"""))}
 }
               /*
                   -- GENERATED --
-                  DATE: Sun Jun 12 22:41:00 BST 2016
-                  SOURCE: C:/Users/Pedro/Documents/GitHub/roplay/ro/app/views/account/email/password_reset_pt.scala.txt
-                  HASH: 5b9d749ecc9152d8fbea6d8d0467a283d2f694ae
-                  MATRIX: 764->1|908->58|939->63|963->67|1239->318|1261->321|1292->325
+                  DATE: Mon Jun 13 04:16:55 BST 2016
+                  SOURCE: D:/roplay/ro/app/views/account/email/password_reset_pt.scala.txt
+                  HASH: 1695bd5d21237063b20bb182ed6fa5b677ea73e5
+                  MATRIX: 764->1|908->58|939->63|963->67|1232->311|1254->314|1283->316
                   LINES: 26->1|29->1|29->1|29->1|36->8|36->8|38->10
                   -- GENERATED --
               */

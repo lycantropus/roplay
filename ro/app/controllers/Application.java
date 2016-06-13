@@ -63,7 +63,7 @@ public class Application extends Controller {
 	public static Result restricted() {
 		final User localUser = getLocalUser(session());
 
-		final Query<Ro> query = MorphiaObject.datastore.createQuery(Ro.class);
+		final Query<Ro> query = MorphiaObject.datastore.createQuery(Ro.class).filter("owner =", getLocalUser(session()));
 		final List<Ro> ros = query.asList();
 		return ok(restricted.render(localUser, ros));
 	}
@@ -169,7 +169,7 @@ public class Application extends Controller {
 
 		MorphiaObject.datastore.save(newRo);
 
-		final Query<Ro> query = MorphiaObject.datastore.createQuery(Ro.class);
+		final Query<Ro> query = MorphiaObject.datastore.createQuery(Ro.class).filter("owner =", getLocalUser(session()));
 		final List<Ro> finalRos = query.asList();
 		return ok(restricted.render(getLocalUser(session()), finalRos));
 	}
@@ -183,10 +183,10 @@ public class Application extends Controller {
 			File file = uploadFile.getFile();
 
 			String convertedfile = encodeFileToBase64Binary(file);
-
+			UUID uniqueId= UUID.randomUUID();
 			//TODO tratar de UUIDs
 
-			final Query<Ro> query = MorphiaObject.datastore.createQuery(Ro.class);
+			final Query<Ro> query = MorphiaObject.datastore.createQuery(Ro.class).filter("owner =", getLocalUser(session()));
 			final List<Ro> ros = query.asList();
 
 			Ro tmpro= ros.get(0);
@@ -199,7 +199,7 @@ public class Application extends Controller {
 			}
 
 			Artifact art = new Artifact();
-
+			art.setUniqueId(uniqueId);
 			art.setTitle(fileName);
 			art.setContent(convertedfile);
 			art.setType(contentType);
@@ -207,8 +207,6 @@ public class Application extends Controller {
 			artList.add(art);
 
 			tmpro.setArtifacts(artList);
-
-
 
 			MorphiaObject.datastore.save(tmpro);
 
