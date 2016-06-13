@@ -29,26 +29,22 @@ object index extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Form
 Seq[Any](_display_(/*2.2*/main(Messages("playauthenticate.index.title"))/*2.48*/ {_display_(Seq[Any](format.raw/*2.50*/("""
       """),format.raw/*3.7*/("""<!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
-        <h1>"""),_display_(/*5.14*/Messages("playauthenticate.index.intro")),format.raw/*5.54*/("""</h1>
-        <p>"""),_display_(/*6.13*/Messages("playauthenticate.index.intro_2")),format.raw/*6.55*/(""" """),format.raw/*6.56*/("""<br/>"""),_display_(/*6.62*/Messages("playauthenticate.index.intro_3")),format.raw/*6.104*/("""</p>
+        <h1 id="logo">"""),_display_(/*5.24*/Messages("playauthenticate.index.intro")),format.raw/*5.64*/("""</h1>
       </div>
 
       <!-- Example row of columns -->
       <div class="row">
-        <div class="span4">
-          <h2>"""),_display_(/*12.16*/Messages("playauthenticate.index.heading")),format.raw/*12.58*/("""</h2>
-           <p>Cupcake ipsum dolor sit amet. Pastry pie powder biscuit bear claw. Jelly-o chocolate bar sweet roll sugar plum chocolate. Biscuit brownie chupa chups macaroon ice cream halvah sugar plum oat cake ice cream.</p>
-          <p><a class="btn" href="#">"""),_display_(/*14.39*/Messages("playauthenticate.index.details")),format.raw/*14.81*/(""" """),format.raw/*14.82*/("""&raquo;</a></p>
+        <div id="firstfeat" class="span4">
+          <h2>"""),_display_(/*11.16*/Messages("playauthenticate.index.heading")),format.raw/*11.58*/("""</h2>
+           <p>Be the author of your own research objects and add them to your collection! You will also be able to see a list of them.</p>
         </div>
-        <div class="span4">
-          <h2>Heading</h2>
-           <p>Applicake macaroon caramels gummi bears pastry. Cake liquorice carrot cake chocolate lollipop dessert. Halvah fruitcake marshmallow pie gummi bears pie marzipan.</p>
-          <p><a class="btn" href="#">"""),_display_(/*19.39*/Messages("playauthenticate.index.details")),format.raw/*19.81*/(""" """),format.raw/*19.82*/("""&raquo;</a></p>
+        <div  id="secondfeat" class="span4">
+          <h2>Search for artifacts</h2>
+           <p>Whenever you need an artifact, our search tool enables you to easily search for it.</p>
        </div>
-        <div class="span4">
-          <h2>Heading</h2>
-          <p>Wafer halvah jujubes lollipop liquorice jelly-o pastry. Pie halvah toffee. Candy canes donut sugar plum. Chocolate cake powder tart liquorice cotton candy pudding sweet.</p>
-          <p><a class="btn" href="#">"""),_display_(/*24.39*/Messages("playauthenticate.index.details")),format.raw/*24.81*/(""" """),format.raw/*24.82*/("""&raquo;</a></p>
+        <div  id="thirdfeat" class="span4">
+          <h2>Update your work</h2>
+          <p>Add new artifacts into your research objects, update the old ones or simply remove them if you ever feel the need to.</p>
         </div>
       </div>
     """)))}))}
@@ -63,11 +59,11 @@ Seq[Any](_display_(/*2.2*/main(Messages("playauthenticate.index.title"))/*2.48*/
 }
               /*
                   -- GENERATED --
-                  DATE: Sun Jun 12 03:17:18 BST 2016
-                  SOURCE: D:/roplay/ro/app/views/index.scala.html
-                  HASH: a100f5e393881f5ff4cf1c7086a2eb5e31c824a1
-                  MATRIX: 798->2|852->48|891->50|924->57|1067->174|1127->214|1171->232|1233->274|1261->275|1293->281|1356->323|1507->447|1570->489|1866->758|1929->800|1958->801|2289->1105|2352->1147|2381->1148|2718->1458|2781->1500|2810->1501
-                  LINES: 29->2|29->2|29->2|30->3|32->5|32->5|33->6|33->6|33->6|33->6|33->6|39->12|39->12|41->14|41->14|41->14|46->19|46->19|46->19|51->24|51->24|51->24
+                  DATE: Mon Jun 13 03:25:03 BST 2016
+                  SOURCE: C:/Users/Pedro/Documents/GitHub/roplay/ro/app/views/index.scala.html
+                  HASH: 54710c929a195f98ea086816d8fd77efe778721b
+                  MATRIX: 798->3|852->49|891->51|925->59|1080->188|1140->228|1313->374|1376->416
+                  LINES: 29->2|29->2|29->2|30->3|32->5|32->5|38->11|38->11
                   -- GENERATED --
               */
           

@@ -30,3 +30,42 @@ form .error .help-inline {
 h1 {
     margin-bottom: 20px !important;
 }
+
+h1#logo {
+	background-image: url(logo.png);
+	background-repeat: no-repeat;
+	height: 100px;
+    width: 1400px;
+	text-indent: -9999px;  
+}
+
+div#firstfeat h2{
+	
+	background-image: url('add-icon.png');
+	background-repeat: no-repeat;
+	height: 70px;
+    width: 1400px;
+	text-indent: 70px;
+	line-height: 60px; /* <-- this is what you must define */
+	vertical-align: middle;
+}
+
+div#secondfeat h2{
+	background-image: url('glas-icon.png');
+	background-repeat: no-repeat;
+	height: 70px;
+    width: 1400px;
+	text-indent: 70px;
+	line-height: 60px; /* <-- this is what you must define */
+	vertical-align: middle;
+}
+
+div#thirdfeat h2{
+	background-image: url('upd-icon.png');
+	background-repeat: no-repeat;
+	height: 70px;
+    width: 1400px;
+	text-indent: 70px;
+	line-height: 60px; /* <-- this is what you must define */
+	vertical-align: middle;
+}

@@ -45,10 +45,10 @@ A equipa do PlayAuthenticate"""))}
 }
               /*
                   -- GENERATED --
-                  DATE: Sun Jun 12 03:17:23 BST 2016
-                  SOURCE: D:/roplay/ro/app/views/account/email/verify_email_pt.scala.txt
-                  HASH: b8662a5a1e73f9ebd7e33a31637bfb1313d7ae92
-                  MATRIX: 762->1|918->70|949->75|973->79|1069->150|1104->165|1132->167
+                  DATE: Sun Jun 12 22:41:00 BST 2016
+                  SOURCE: C:/Users/Pedro/Documents/GitHub/roplay/ro/app/views/account/email/verify_email_pt.scala.txt
+                  HASH: 890dc03f0135815ae3378216fbe49333e29d2881
+                  MATRIX: 762->1|918->70|949->75|973->79|1073->154|1108->169|1138->173
                   LINES: 26->1|29->1|29->1|29->1|33->5|33->5|35->7
                   -- GENERATED --
               */

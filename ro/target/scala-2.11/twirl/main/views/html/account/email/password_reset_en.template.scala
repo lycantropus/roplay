@@ -52,10 +52,10 @@ Seq[Any](format.raw/*1.59*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Sun Jun 12 03:17:22 BST 2016
-                  SOURCE: D:/roplay/ro/app/views/account/email/password_reset_en.scala.html
-                  HASH: 5c5be9f4f8c1e61132b58dfc655e5ab519bcb795
-                  MATRIX: 770->1|915->58|942->59|974->66|998->70|1275->320|1299->323
+                  DATE: Sun Jun 12 22:41:00 BST 2016
+                  SOURCE: C:/Users/Pedro/Documents/GitHub/roplay/ro/app/views/account/email/password_reset_en.scala.html
+                  HASH: 2758af67a0d7df2ecbb906adc33bf6b048804ad1
+                  MATRIX: 770->1|915->58|943->60|975->67|999->71|1284->329|1308->332
                   LINES: 26->1|29->1|30->2|30->2|30->2|38->10|38->10
                   -- GENERATED --
               */

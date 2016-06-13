@@ -52,10 +52,10 @@ Seq[Any](format.raw/*1.44*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Sun Jun 12 03:17:19 BST 2016
-                  SOURCE: D:/roplay/ro/app/views/_emailPartial.scala.html
-                  HASH: 764d8d11cc1fd4d0bc3019a52718e5ce1be1de20
-                  MATRIX: 813->1|991->43|1019->96|1046->98
+                  DATE: Sun Jun 12 22:41:00 BST 2016
+                  SOURCE: C:/Users/Pedro/Documents/GitHub/roplay/ro/app/views/_emailPartial.scala.html
+                  HASH: 280274f79d8298584b512469611fbf13e836479b
+                  MATRIX: 813->1|991->43|1021->100|1049->103
                   LINES: 28->1|32->1|34->5|35->6
                   -- GENERATED --
               */

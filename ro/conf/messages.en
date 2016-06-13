@@ -118,7 +118,7 @@ playauthenticate.navigation.link_more=Link more providers
 playauthenticate.navigation.logout=Sign out
 playauthenticate.navigation.login=Log in
 playauthenticate.navigation.home=Home
-playauthenticate.navigation.restricted=Dashboard
+playauthenticate.navigation.restricted=Research objects
 playauthenticate.navigation.signup=Sign up
 
 # play-authenticate: Handler
@@ -138,10 +138,10 @@ playauthenticate.profile.password_change=Change/set a password for your account
 
 # play-authenticate - sample: Index page
 playauthenticate.index.title=aggRO - Research Objects aggregator
-playauthenticate.index.intro=aggRO - Research Objects aggregator
+playauthenticate.index.intro= a
 playauthenticate.index.intro_2=Bambora
 playauthenticate.index.intro_3=bambora bamboraaaaaaaaaaaaaaa
-playauthenticate.index.heading=Heading
+playauthenticate.index.heading=Create research objects
 playauthenticate.index.details=View details
 
 # play-authenticate - sample: Restricted page

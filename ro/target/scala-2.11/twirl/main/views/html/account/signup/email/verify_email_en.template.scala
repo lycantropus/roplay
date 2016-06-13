@@ -51,10 +51,10 @@ Seq[Any](format.raw/*1.71*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Sun Jun 12 03:17:23 BST 2016
-                  SOURCE: D:/roplay/ro/app/views/account/signup/email/verify_email_en.scala.html
-                  HASH: 21e4e9f8479e676d2bda00802e64761104b77c21
-                  MATRIX: 775->1|932->70|959->71|991->78|1015->82|1152->193|1187->208
+                  DATE: Sun Jun 12 22:41:00 BST 2016
+                  SOURCE: C:/Users/Pedro/Documents/GitHub/roplay/ro/app/views/account/signup/email/verify_email_en.scala.html
+                  HASH: 0d9fd61ade0fd26122f17e8c2ea0508cfc8d116a
+                  MATRIX: 775->1|932->70|960->72|992->79|1016->83|1159->200|1194->215
                   LINES: 26->1|29->1|30->2|30->2|30->2|36->8|36->8
                   -- GENERATED --
               */
