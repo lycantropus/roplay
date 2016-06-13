@@ -58,10 +58,10 @@ Seq[Any](format.raw/*1.14*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Sun Jun 12 03:17:19 BST 2016
-                  SOURCE: D:/roplay/ro/app/views/_passwordPartial.scala.html
-                  HASH: 7d4c428efbf03844e1926ab0caa020b307383d8b
-                  MATRIX: 808->1|956->13|984->66|1025->81|1188->224|1244->253
+                  DATE: Sun Jun 12 22:41:00 BST 2016
+                  SOURCE: C:/Users/Pedro/Documents/GitHub/roplay/ro/app/views/_passwordPartial.scala.html
+                  HASH: 86cdba00ad774dbdf29c40585ab36dc0bdfa1c0b
+                  MATRIX: 808->1|956->13|986->70|1028->86|1194->232|1252->263
                   LINES: 28->1|32->1|34->5|35->6|38->9|40->11
                   -- GENERATED --
               */

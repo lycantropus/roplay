@@ -1,168 +1,466 @@
-2016-06-12 21:05:01,038 - [INFO] - from play in pool-4-thread-2 
+2016-06-12 22:40:53,688 - [INFO] - from play in pool-4-thread-3 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2016-06-12 21:05:38,194 - [INFO] - from application in play-internal-execution-context-1 
+2016-06-12 22:41:16,362 - [INFO] - from application in play-internal-execution-context-1 
 Application started!
 
-2016-06-12 21:05:39,409 - [DEBUG] - from application in play-internal-execution-context-1 
+2016-06-12 22:41:17,138 - [DEBUG] - from application in play-internal-execution-context-1 
 ** Morphia datastore: ro
 
-2016-06-12 21:05:39,410 - [INFO] - from application in play-internal-execution-context-1 
+2016-06-12 22:41:17,139 - [INFO] - from application in play-internal-execution-context-1 
 Connected to Database!
 
-2016-06-12 21:05:39,547 - [INFO] - from play in play-internal-execution-context-1 
+2016-06-12 22:41:17,266 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-06-12 21:05:50,488 - [DEBUG] - from application in play-akka.actor.default-dispatcher-3 
+2016-06-12 23:55:00,862 - [DEBUG] - from application in play-akka.actor.default-dispatcher-8 
 Returned with URL: '/authenticate/google'
 
-2016-06-12 21:05:50,507 - [DEBUG] - from application in play-akka.actor.default-dispatcher-3 
-generated redirect URL for dialog: https://accounts.google.com/o/oauth2/auth?client_id=912436160264-ev191lmaculrtniv0qkq4uregdptcuvf.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9000%2Fauthenticate%2Fgoogle&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&response_type=code&state=b2a69ab6-f4c6-4fa6-9fe9-45f05f12b43f
+2016-06-12 23:55:00,877 - [DEBUG] - from application in play-akka.actor.default-dispatcher-8 
+generated redirect URL for dialog: https://accounts.google.com/o/oauth2/auth?client_id=912436160264-ev191lmaculrtniv0qkq4uregdptcuvf.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9000%2Fauthenticate%2Fgoogle&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&response_type=code&state=a1dbf2c5-0ea1-46ac-87dc-7da6645f4dea
 
-2016-06-12 21:05:53,867 - [DEBUG] - from application in play-akka.actor.default-dispatcher-3 
-Returned with URL: '/authenticate/google?state=b2a69ab6-f4c6-4fa6-9fe9-45f05f12b43f&code=4/niJpfWcNtUY4rFbKb-FP7hQzVpUrnz9XocxAQsrFYWE'
+2016-06-12 23:55:03,261 - [DEBUG] - from application in play-akka.actor.default-dispatcher-3 
+Returned with URL: '/authenticate/google?state=a1dbf2c5-0ea1-46ac-87dc-7da6645f4dea&code=4/9TC7K89cClm0GOScDwbsHUCUO1ez_z9jhAfm0q9MjFw'
 
-2016-06-12 21:05:54,807 - [DEBUG] - from application in play-akka.actor.default-dispatcher-3 
-{"access_token":"ya29.Ci__AviybedforOiYH9WfvUV6uuotFLQxF5QF14vzb0CSXluYi0Wp_rXCVgBlb3Clg","token_type":"Bearer","expires_in":3600,"id_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjVjMzEwYWY5Y2E1MjNkOTFkZjQ0ZjU1ZTgyYjI3YjcwMGI4N2U2ZWMifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6IklOeHYyMjNuSFFOS0lYcl9nOTliQnciLCJhdWQiOiI5MTI0MzYxNjAyNjQtZXYxOTFsbWFjdWxydG5pdjBxa3E0dXJlZ2RwdGN1dmYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTMwNDI1NjA2MTUwMDQyMTgyNjIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiOTEyNDM2MTYwMjY0LWV2MTkxbG1hY3VscnRuaXYwcWtxNHVyZWdkcHRjdXZmLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJtZWNoYW5pY2FsLm1hZ2dvdC4wQGdtYWlsLmNvbSIsImlhdCI6MTQ2NTc2MTk1NCwiZXhwIjoxNDY1NzY1NTU0fQ.RS5p5vODLGLUKmjup5wQO_y36jqDxWIKd7ksulJ695AV10qbNkqVSSs_bvAoQMnXF02FFFSkeu2xjZRr5Il-ELZaBnlUm4S9i_BrxrQRPYT3E6eNBowSM05z4dxIzXIMaoIXQRPB5qLP14T4JfR3w6QfbgN5V-v0u07r6rBziKg8UKsY13qn9KaHAjCjOQMa8IXrZf1Y7EabXL_ruhvD3gB4H6KKd_DOi7EAj5TO9qLIbjjO42kayQ613O2NXFqklMwMCtwzT11LXc3hD-_ml_7piASanbs0KkRisBOZD3QUK2upfdGonTDoZf7PQyfYJR5ie8goBG9elHjM6lj9ZA"}
+2016-06-12 23:55:03,900 - [DEBUG] - from application in play-akka.actor.default-dispatcher-3 
+{"access_token":"ya29.Ci__AoMbHV_gSV_yEFtFCJTiOmYoImLKHtvcYaqEOjLu7cRfpozSBCW4J0k8JEU5sA","token_type":"Bearer","expires_in":3600,"id_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjhlODBmNjc3ZjU5OTgwOWI1MGJhMTAxMjIyMmZjOTJmZDY2NzFhMmYifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6IkEtcExmeEhjeWI1R0dJUkg1UjkxcmciLCJhdWQiOiI5MTI0MzYxNjAyNjQtZXYxOTFsbWFjdWxydG5pdjBxa3E0dXJlZ2RwdGN1dmYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTA3MDU1NzAzMjg4NjAzNzc0MTQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiOTEyNDM2MTYwMjY0LWV2MTkxbG1hY3VscnRuaXYwcWtxNHVyZWdkcHRjdXZmLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJlc3F1aWxvZmV1cEBnbWFpbC5jb20iLCJpYXQiOjE0NjU3NzIxMDcsImV4cCI6MTQ2NTc3NTcwN30.ACmWaI4xzpGOQFOQq0c6xXjOfPpPWnlRSv1c3RyMeGqIhaEyfE7R5X1YdpsreOj5TpaaCy9ZjfL1zcBwE42qyg4nSfhyj0jH3bEunLjhnstU-aRL3bZ5uHOv3sSCuXxRZvtp70RnmNysWFUgraYorTrYLmGu9dolb6Z5oI3558Okg64TQGvubMJzDS-CnYTlhQSMR1Y7eKzB-CqEsMHZ2AzOLHMb2H_LxB5WS1JgJi-0NfLEJPeCmkLHZha_CqM1GKV2hr7htgaZ-6XzWSbMIBk9xWWBuSSZ3QE8cYzApoKGb4hnuZiHwYICtSq7vTR1AstJLNDnIas8oIud7a7oUg"}
 
-2016-06-12 21:05:55,174 - [DEBUG] - from application in play-akka.actor.default-dispatcher-3 
-{"id":"113042560615004218262","email":"mechanical.maggot.0@gmail.com","verified_email":true,"name":"André Humberto","given_name":"André","family_name":"Humberto","link":"https://plus.google.com/113042560615004218262","picture":"https://lh5.googleusercontent.com/-Yf5rYd2OtDE/AAAAAAAAAAI/AAAAAAAAAEU/0jwWCODtavw/photo.jpg","gender":"male","locale":"pt-PT"}
+2016-06-12 23:55:04,123 - [DEBUG] - from application in play-akka.actor.default-dispatcher-3 
+{"id":"110705570328860377414","email":"esquilofeup@gmail.com","verified_email":true,"name":"Pedro Martins","given_name":"Pedro","family_name":"Martins","link":"https://plus.google.com/110705570328860377414","picture":"https://lh6.googleusercontent.com/-Gf9xCyou6qU/AAAAAAAAAAI/AAAAAAAAABA/P8Di4K6YuZg/photo.jpg","gender":"male","locale":"en"}
 
-2016-06-12 21:46:31,598 - [INFO] - from application in play-internal-execution-context-2 
+2016-06-13 00:42:03,007 - [INFO] - from application in play-internal-execution-context-1 
 Application started!
 
-2016-06-12 21:46:32,209 - [DEBUG] - from application in play-internal-execution-context-2 
+2016-06-13 00:42:03,594 - [DEBUG] - from application in play-internal-execution-context-1 
 ** Morphia datastore: ro
 
-2016-06-12 21:46:32,210 - [INFO] - from application in play-internal-execution-context-2 
+2016-06-13 00:42:03,595 - [INFO] - from application in play-internal-execution-context-1 
 Connected to Database!
 
-2016-06-12 21:46:32,389 - [WARN] - from application in play-internal-execution-context-2 
+2016-06-13 00:42:03,712 - [WARN] - from application in play-internal-execution-context-1 
 A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
 
-2016-06-12 21:46:32,391 - [INFO] - from play in play-internal-execution-context-2 
+2016-06-13 00:42:03,717 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-06-12 21:47:55,203 - [INFO] - from application in play-internal-execution-context-2 
+2016-06-13 01:38:44,919 - [INFO] - from application in play-internal-execution-context-1 
 Application started!
 
-2016-06-12 21:47:55,804 - [DEBUG] - from application in play-internal-execution-context-2 
+2016-06-13 01:38:45,504 - [DEBUG] - from application in play-internal-execution-context-1 
 ** Morphia datastore: ro
 
-2016-06-12 21:47:55,804 - [INFO] - from application in play-internal-execution-context-2 
+2016-06-13 01:38:45,505 - [INFO] - from application in play-internal-execution-context-1 
 Connected to Database!
 
-2016-06-12 21:47:55,923 - [WARN] - from application in play-internal-execution-context-2 
+2016-06-13 01:38:45,622 - [WARN] - from application in play-internal-execution-context-1 
 A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
 
-2016-06-12 21:47:55,925 - [INFO] - from play in play-internal-execution-context-2 
+2016-06-13 01:38:45,628 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-06-12 21:48:40,688 - [INFO] - from application in play-internal-execution-context-2 
+2016-06-13 01:45:57,103 - [INFO] - from application in play-internal-execution-context-1 
 Application started!
 
-2016-06-12 21:48:41,291 - [DEBUG] - from application in play-internal-execution-context-2 
+2016-06-13 01:45:57,690 - [DEBUG] - from application in play-internal-execution-context-1 
 ** Morphia datastore: ro
 
-2016-06-12 21:48:41,291 - [INFO] - from application in play-internal-execution-context-2 
+2016-06-13 01:45:57,691 - [INFO] - from application in play-internal-execution-context-1 
 Connected to Database!
 
-2016-06-12 21:48:41,409 - [WARN] - from application in play-internal-execution-context-2 
+2016-06-13 01:45:57,808 - [WARN] - from application in play-internal-execution-context-1 
 A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
 
-2016-06-12 21:48:41,411 - [INFO] - from play in play-internal-execution-context-2 
+2016-06-13 01:45:57,813 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-06-12 21:49:21,308 - [INFO] - from application in play-internal-execution-context-3 
+2016-06-13 01:52:27,634 - [INFO] - from application in play-internal-execution-context-1 
 Application started!
 
-2016-06-12 21:49:21,902 - [DEBUG] - from application in play-internal-execution-context-3 
+2016-06-13 01:52:28,217 - [DEBUG] - from application in play-internal-execution-context-1 
 ** Morphia datastore: ro
 
-2016-06-12 21:49:21,903 - [INFO] - from application in play-internal-execution-context-3 
+2016-06-13 01:52:28,218 - [INFO] - from application in play-internal-execution-context-1 
 Connected to Database!
 
-2016-06-12 21:49:22,029 - [WARN] - from application in play-internal-execution-context-3 
+2016-06-13 01:52:28,334 - [WARN] - from application in play-internal-execution-context-1 
 A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
 
-2016-06-12 21:49:22,030 - [INFO] - from play in play-internal-execution-context-3 
+2016-06-13 01:52:28,336 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-06-12 21:51:11,598 - [INFO] - from application in play-internal-execution-context-5 
+2016-06-13 01:55:10,005 - [INFO] - from application in play-internal-execution-context-1 
 Application started!
 
-2016-06-12 21:51:12,225 - [DEBUG] - from application in play-internal-execution-context-5 
+2016-06-13 01:55:10,591 - [DEBUG] - from application in play-internal-execution-context-1 
 ** Morphia datastore: ro
 
-2016-06-12 21:51:12,225 - [INFO] - from application in play-internal-execution-context-5 
+2016-06-13 01:55:10,592 - [INFO] - from application in play-internal-execution-context-1 
 Connected to Database!
 
-2016-06-12 21:51:12,344 - [WARN] - from application in play-internal-execution-context-5 
+2016-06-13 01:55:10,709 - [WARN] - from application in play-internal-execution-context-1 
 A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
 
-2016-06-12 21:51:12,345 - [INFO] - from play in play-internal-execution-context-5 
+2016-06-13 01:55:10,711 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-06-12 21:52:17,769 - [INFO] - from application in play-internal-execution-context-5 
+2016-06-13 01:56:09,366 - [INFO] - from application in play-internal-execution-context-1 
 Application started!
 
-2016-06-12 21:52:18,390 - [DEBUG] - from application in play-internal-execution-context-5 
+2016-06-13 01:56:09,994 - [DEBUG] - from application in play-internal-execution-context-1 
 ** Morphia datastore: ro
 
-2016-06-12 21:52:18,391 - [INFO] - from application in play-internal-execution-context-5 
+2016-06-13 01:56:09,994 - [INFO] - from application in play-internal-execution-context-1 
 Connected to Database!
 
-2016-06-12 21:52:18,520 - [WARN] - from application in play-internal-execution-context-5 
+2016-06-13 01:56:10,111 - [WARN] - from application in play-internal-execution-context-1 
 A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
 
-2016-06-12 21:52:18,521 - [INFO] - from play in play-internal-execution-context-5 
+2016-06-13 01:56:10,113 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-06-12 21:53:25,638 - [INFO] - from application in play-internal-execution-context-5 
+2016-06-13 02:01:11,430 - [INFO] - from application in play-internal-execution-context-1 
 Application started!
 
-2016-06-12 21:53:26,313 - [DEBUG] - from application in play-internal-execution-context-5 
+2016-06-13 02:01:12,017 - [DEBUG] - from application in play-internal-execution-context-1 
 ** Morphia datastore: ro
 
-2016-06-12 21:53:26,314 - [INFO] - from application in play-internal-execution-context-5 
+2016-06-13 02:01:12,018 - [INFO] - from application in play-internal-execution-context-1 
 Connected to Database!
 
-2016-06-12 21:53:26,434 - [WARN] - from application in play-internal-execution-context-5 
+2016-06-13 02:01:12,134 - [WARN] - from application in play-internal-execution-context-1 
 A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
 
-2016-06-12 21:53:26,435 - [INFO] - from play in play-internal-execution-context-5 
+2016-06-13 02:01:12,136 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-06-12 22:19:38,984 - [INFO] - from application in play-internal-execution-context-9 
+2016-06-13 02:01:25,908 - [INFO] - from application in play-internal-execution-context-1 
 Application started!
 
-2016-06-12 22:19:39,597 - [DEBUG] - from application in play-internal-execution-context-9 
+2016-06-13 02:01:26,494 - [DEBUG] - from application in play-internal-execution-context-1 
 ** Morphia datastore: ro
 
-2016-06-12 22:19:39,598 - [INFO] - from application in play-internal-execution-context-9 
+2016-06-13 02:01:26,494 - [INFO] - from application in play-internal-execution-context-1 
 Connected to Database!
 
-2016-06-12 22:19:39,714 - [WARN] - from application in play-internal-execution-context-9 
+2016-06-13 02:01:26,611 - [WARN] - from application in play-internal-execution-context-1 
 A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
 
-2016-06-12 22:19:39,716 - [INFO] - from play in play-internal-execution-context-9 
+2016-06-13 02:01:26,612 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-06-12 22:19:39,736 - [DEBUG] - from application in play-akka.actor.default-dispatcher-58 
+2016-06-13 02:01:39,049 - [INFO] - from application in play-internal-execution-context-1 
+Application started!
+
+2016-06-13 02:01:39,632 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: ro
+
+2016-06-13 02:01:39,632 - [INFO] - from application in play-internal-execution-context-1 
+Connected to Database!
+
+2016-06-13 02:01:39,749 - [WARN] - from application in play-internal-execution-context-1 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2016-06-13 02:01:39,750 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-13 02:01:56,103 - [INFO] - from application in play-internal-execution-context-1 
+Application started!
+
+2016-06-13 02:01:56,686 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: ro
+
+2016-06-13 02:01:56,687 - [INFO] - from application in play-internal-execution-context-1 
+Connected to Database!
+
+2016-06-13 02:01:56,803 - [WARN] - from application in play-internal-execution-context-1 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2016-06-13 02:01:56,804 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-13 02:10:15,837 - [INFO] - from application in play-internal-execution-context-1 
+Application started!
+
+2016-06-13 02:10:16,422 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: ro
+
+2016-06-13 02:10:16,423 - [INFO] - from application in play-internal-execution-context-1 
+Connected to Database!
+
+2016-06-13 02:10:16,539 - [WARN] - from application in play-internal-execution-context-1 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2016-06-13 02:10:16,541 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-13 02:11:14,367 - [INFO] - from application in play-internal-execution-context-1 
+Application started!
+
+2016-06-13 02:11:14,950 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: ro
+
+2016-06-13 02:11:14,951 - [INFO] - from application in play-internal-execution-context-1 
+Connected to Database!
+
+2016-06-13 02:11:15,067 - [WARN] - from application in play-internal-execution-context-1 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2016-06-13 02:11:15,069 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-13 02:13:18,900 - [INFO] - from application in play-internal-execution-context-1 
+Application started!
+
+2016-06-13 02:13:19,483 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: ro
+
+2016-06-13 02:13:19,483 - [INFO] - from application in play-internal-execution-context-1 
+Connected to Database!
+
+2016-06-13 02:13:19,600 - [WARN] - from application in play-internal-execution-context-1 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2016-06-13 02:13:19,602 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-13 02:13:27,291 - [ERROR] - from application in New I/O worker #5 
+
+
+! @70cnnaboo - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$UnexpectedException: Unexpected exception[FileNotFoundException: C:\Users\Pedro\Documents\GitHub\roplay\ro\target\scala-2.11\classes\views\html\main$$anonfun$apply$2.class (O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo)]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:237) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.6.jar:2.3.6]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.6.jar:2.3.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+Caused by: java.io.FileNotFoundException: C:\Users\Pedro\Documents\GitHub\roplay\ro\target\scala-2.11\classes\views\html\main$$anonfun$apply$2.class (O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_91]
+	at java.io.FileOutputStream.open(Unknown Source) ~[na:1.8.0_91]
+	at java.io.FileOutputStream.<init>(Unknown Source) ~[na:1.8.0_91]
+	at java.io.FileOutputStream.<init>(Unknown Source) ~[na:1.8.0_91]
+	at play.core.enhancers.PropertiesEnhancer.rewriteAccess(PropertiesEnhancer.java:197) ~[build-link-2.3.6.jar:2.3.6]
+	at play.PlayCommands$$anonfun$PostCompile$1$$anonfun$10.apply(PlayCommands.scala:100) ~[na:na]
+	at play.PlayCommands$$anonfun$PostCompile$1$$anonfun$10.apply(PlayCommands.scala:100) ~[na:na]
+	at scala.collection.TraversableLike$$anonfun$filter$1.apply(TraversableLike.scala:264) ~[na:na]
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:47) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.TraversableLike$class.filter(TraversableLike.scala:263) ~[scala-library-2.11.1.jar:na]
+	at scala.collection.AbstractTraversable.filter(Traversable.scala:105) ~[scala-library-2.11.1.jar:na]
+	at play.PlayCommands$$anonfun$PostCompile$1.apply(PlayCommands.scala:100) ~[na:na]
+	at play.PlayCommands$$anonfun$PostCompile$1.apply(PlayCommands.scala:76) ~[na:na]
+	at scala.Function8$$anonfun$tupled$1.apply(Function8.scala:35) ~[scala-library-2.11.1.jar:na]
+	at scala.Function8$$anonfun$tupled$1.apply(Function8.scala:34) ~[scala-library-2.11.1.jar:na]
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47) ~[scala-library-2.11.1.jar:na]
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:42) ~[na:na]
+	at sbt.std.Transform$$anon$4.work(System.scala:64) ~[na:na]
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237) ~[na:na]
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237) ~[na:na]
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
+	at sbt.Execute.work(Execute.scala:244) ~[na:na]
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237) ~[na:na]
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237) ~[na:na]
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:160) ~[na:na]
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:30) ~[na:na]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_91]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.8.0_91]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_91]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_91]
+
+2016-06-13 02:13:36,327 - [INFO] - from application in play-internal-execution-context-1 
+Application started!
+
+2016-06-13 02:13:36,913 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: ro
+
+2016-06-13 02:13:36,913 - [INFO] - from application in play-internal-execution-context-1 
+Connected to Database!
+
+2016-06-13 02:13:37,030 - [WARN] - from application in play-internal-execution-context-1 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2016-06-13 02:13:37,032 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-13 02:18:05,529 - [INFO] - from application in play-internal-execution-context-1 
+Application started!
+
+2016-06-13 02:18:06,113 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: ro
+
+2016-06-13 02:18:06,113 - [INFO] - from application in play-internal-execution-context-1 
+Connected to Database!
+
+2016-06-13 02:18:06,230 - [WARN] - from application in play-internal-execution-context-1 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2016-06-13 02:18:06,231 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-13 02:22:48,226 - [DEBUG] - from application in play-akka.actor.default-dispatcher-124 
 Path where we are coming from (/user) is different than the login URL (/login)
 
-2016-06-12 22:19:42,822 - [DEBUG] - from application in play-akka.actor.default-dispatcher-69 
+2016-06-13 02:22:53,794 - [DEBUG] - from application in play-akka.actor.default-dispatcher-120 
 Returned with URL: '/authenticate/google'
 
-2016-06-12 22:19:42,823 - [DEBUG] - from application in play-akka.actor.default-dispatcher-69 
-generated redirect URL for dialog: https://accounts.google.com/o/oauth2/auth?client_id=912436160264-ev191lmaculrtniv0qkq4uregdptcuvf.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9000%2Fauthenticate%2Fgoogle&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&response_type=code&state=ba3c6bdf-8a7b-469f-bdca-6634a2184af4
+2016-06-13 02:22:53,795 - [DEBUG] - from application in play-akka.actor.default-dispatcher-120 
+generated redirect URL for dialog: https://accounts.google.com/o/oauth2/auth?client_id=912436160264-ev191lmaculrtniv0qkq4uregdptcuvf.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9000%2Fauthenticate%2Fgoogle&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&response_type=code&state=47f5b0d3-e601-4b3f-a79b-96f84399c8ae
 
-2016-06-12 22:19:45,507 - [DEBUG] - from application in play-akka.actor.default-dispatcher-66 
-Returned with URL: '/authenticate/google?state=ba3c6bdf-8a7b-469f-bdca-6634a2184af4&code=4/ggNwMsF1bImlj24I2m-sPRnE6DIzN5Inrb5Y0ufbc38'
+2016-06-13 02:22:54,028 - [DEBUG] - from application in play-akka.actor.default-dispatcher-120 
+Returned with URL: '/authenticate/google?state=47f5b0d3-e601-4b3f-a79b-96f84399c8ae&code=4/bh8K0JJNxJIR5fpOcRWmdSB2cXN30NbMBFNehhYryww'
 
-2016-06-12 22:19:45,817 - [DEBUG] - from application in play-akka.actor.default-dispatcher-66 
-{"access_token":"ya29.Ci__Ake-i98CUSziRSDfYK48d5gUTrNxhqFLw7VMSdTGeYX9XxJGptZteLOFuewBhw","token_type":"Bearer","expires_in":3600,"id_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjhlODBmNjc3ZjU5OTgwOWI1MGJhMTAxMjIyMmZjOTJmZDY2NzFhMmYifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6Inh6OFh3WE9qajNiNUV4TXpoQmZnSXciLCJhdWQiOiI5MTI0MzYxNjAyNjQtZXYxOTFsbWFjdWxydG5pdjBxa3E0dXJlZ2RwdGN1dmYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTMwNDI1NjA2MTUwMDQyMTgyNjIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiOTEyNDM2MTYwMjY0LWV2MTkxbG1hY3VscnRuaXYwcWtxNHVyZWdkcHRjdXZmLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJtZWNoYW5pY2FsLm1hZ2dvdC4wQGdtYWlsLmNvbSIsImlhdCI6MTQ2NTc2NjM4NSwiZXhwIjoxNDY1NzY5OTg1fQ.Fv28VqsCCIqALafcw4ZR7MQs7rD_dJJ4U28ZCYR05B1bY7eJ0wM0WAb_DGUkG4ukhX0xkWARkEGbH5dvloYrP5_7zM7hlzvJGUY8CqOi8_e5NIKVsizhr5azNWTi29-_uPPTVmz1xV9MOuOukMaYz1gi9yIL5cSZY-L1X5PNYn_F4R8gBZPq8bR8mU-JfOuMjmb-M3_KRxxSUReOLAQhy6sO0GIg-meoBOc83jchWh5-uwtDnqVPNnZ8kagWFo4jG30HxQzPY9O4TiZNsCXMaNZJBZf_2OaoLG_dB0GOHcBIRXyWl-2XXkvTYf1uqlSd7zAH5JP-QBQRF7otnr_AoA"}
+2016-06-13 02:22:54,299 - [DEBUG] - from application in play-akka.actor.default-dispatcher-120 
+{"access_token":"ya29.Ci8AAwbTjdCn4oZ6o-KZqiJDDntehswuw6F_lgKFPVzWg_BvNuCJ8n9OfjLGkX8KKQ","token_type":"Bearer","expires_in":3600,"id_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjhlODBmNjc3ZjU5OTgwOWI1MGJhMTAxMjIyMmZjOTJmZDY2NzFhMmYifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6ImlobmYwc2psYXZTWk5DTHk5ZW1aT2ciLCJhdWQiOiI5MTI0MzYxNjAyNjQtZXYxOTFsbWFjdWxydG5pdjBxa3E0dXJlZ2RwdGN1dmYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTA3MDU1NzAzMjg4NjAzNzc0MTQiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiOTEyNDM2MTYwMjY0LWV2MTkxbG1hY3VscnRuaXYwcWtxNHVyZWdkcHRjdXZmLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJlc3F1aWxvZmV1cEBnbWFpbC5jb20iLCJpYXQiOjE0NjU3ODA5NzcsImV4cCI6MTQ2NTc4NDU3N30.ABWkJlgAe0NWtP4NU0vu5UtnYtGqaiS-Hq-aC-dPhGq77IkEeqVoZ_RY3xB9mVSZzkKxSF87NcJlwwKppO5tOaNNt7jni-Q-OFpbHA6gXYQifpcI4i0krX_X2WVVr7nh6TbE0ErR0mK5wJwcNDhfzPj62_MyOrsxtMQyGJw-YIIZjFjCcmN7c4MHkfmFN_yAL47G0iACkhEw1g0bplhlKY2sJe--e53D7gMzd4o0HZ2mNBqedQpwAKKw0MhoVBjUtVzJAtftHYIe_UZyBvRBrMaNK-x916ojGC698leMm0kmFQ3jFoLj5br3i4ORoaXoBw3SO2WRb7hqEeF5gn5ikg"}
 
-2016-06-12 22:19:46,162 - [DEBUG] - from application in play-akka.actor.default-dispatcher-66 
-{"id":"113042560615004218262","email":"mechanical.maggot.0@gmail.com","verified_email":true,"name":"André Humberto","given_name":"André","family_name":"Humberto","link":"https://plus.google.com/113042560615004218262","picture":"https://lh5.googleusercontent.com/-Yf5rYd2OtDE/AAAAAAAAAAI/AAAAAAAAAEU/0jwWCODtavw/photo.jpg","gender":"male","locale":"pt-PT"}
+2016-06-13 02:22:54,509 - [DEBUG] - from application in play-akka.actor.default-dispatcher-120 
+{"id":"110705570328860377414","email":"esquilofeup@gmail.com","verified_email":true,"name":"Pedro Martins","given_name":"Pedro","family_name":"Martins","link":"https://plus.google.com/110705570328860377414","picture":"https://lh6.googleusercontent.com/-Gf9xCyou6qU/AAAAAAAAAAI/AAAAAAAAABA/P8Di4K6YuZg/photo.jpg","gender":"male","locale":"en"}
+
+2016-06-13 02:30:05,563 - [INFO] - from application in play-internal-execution-context-1 
+Application started!
+
+2016-06-13 02:30:06,148 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: ro
+
+2016-06-13 02:30:06,148 - [INFO] - from application in play-internal-execution-context-1 
+Connected to Database!
+
+2016-06-13 02:30:06,265 - [WARN] - from application in play-internal-execution-context-1 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2016-06-13 02:30:06,266 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-13 02:34:15,128 - [INFO] - from application in play-internal-execution-context-1 
+Application started!
+
+2016-06-13 02:34:15,710 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: ro
+
+2016-06-13 02:34:15,711 - [INFO] - from application in play-internal-execution-context-1 
+Connected to Database!
+
+2016-06-13 02:34:15,829 - [WARN] - from application in play-internal-execution-context-1 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2016-06-13 02:34:15,831 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-13 02:40:50,755 - [INFO] - from application in play-internal-execution-context-1 
+Application started!
+
+2016-06-13 02:40:51,342 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: ro
+
+2016-06-13 02:40:51,342 - [INFO] - from application in play-internal-execution-context-1 
+Connected to Database!
+
+2016-06-13 02:40:51,460 - [WARN] - from application in play-internal-execution-context-1 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2016-06-13 02:40:51,461 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-13 03:05:06,733 - [INFO] - from application in play-internal-execution-context-1 
+Application started!
+
+2016-06-13 03:05:07,317 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: ro
+
+2016-06-13 03:05:07,317 - [INFO] - from application in play-internal-execution-context-1 
+Connected to Database!
+
+2016-06-13 03:05:07,434 - [WARN] - from application in play-internal-execution-context-1 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2016-06-13 03:05:07,436 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-13 03:05:40,218 - [INFO] - from application in play-internal-execution-context-1 
+Application started!
+
+2016-06-13 03:05:40,802 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: ro
+
+2016-06-13 03:05:40,803 - [INFO] - from application in play-internal-execution-context-1 
+Connected to Database!
+
+2016-06-13 03:05:40,918 - [WARN] - from application in play-internal-execution-context-1 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2016-06-13 03:05:40,920 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-13 03:18:55,828 - [INFO] - from application in play-internal-execution-context-1 
+Application started!
+
+2016-06-13 03:18:56,415 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: ro
+
+2016-06-13 03:18:56,416 - [INFO] - from application in play-internal-execution-context-1 
+Connected to Database!
+
+2016-06-13 03:18:56,532 - [WARN] - from application in play-internal-execution-context-1 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2016-06-13 03:18:56,534 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-13 03:19:46,994 - [INFO] - from application in play-internal-execution-context-1 
+Application started!
+
+2016-06-13 03:19:47,588 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: ro
+
+2016-06-13 03:19:47,588 - [INFO] - from application in play-internal-execution-context-1 
+Connected to Database!
+
+2016-06-13 03:19:47,704 - [WARN] - from application in play-internal-execution-context-1 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2016-06-13 03:19:47,707 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-13 03:25:04,552 - [INFO] - from application in play-internal-execution-context-1 
+Application started!
+
+2016-06-13 03:25:05,137 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: ro
+
+2016-06-13 03:25:05,138 - [INFO] - from application in play-internal-execution-context-1 
+Connected to Database!
+
+2016-06-13 03:25:05,253 - [WARN] - from application in play-internal-execution-context-1 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2016-06-13 03:25:05,255 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-13 03:51:09,937 - [INFO] - from application in play-internal-execution-context-1 
+Application started!
+
+2016-06-13 03:51:10,520 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: ro
+
+2016-06-13 03:51:10,520 - [INFO] - from application in play-internal-execution-context-1 
+Connected to Database!
+
+2016-06-13 03:51:10,636 - [WARN] - from application in play-internal-execution-context-1 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2016-06-13 03:51:10,638 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
 

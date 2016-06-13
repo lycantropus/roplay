@@ -46,10 +46,10 @@ Seq[Any](_display_(/*2.2*/main(Messages("playauthenticate.link.account.title"))/
 }
               /*
                   -- GENERATED --
-                  DATE: Sun Jun 12 03:17:20 BST 2016
-                  SOURCE: D:/roplay/ro/app/views/account/link.scala.html
-                  HASH: c85307a053a417915abd43647c1753b84b432c60
-                  MATRIX: 805->2|866->55|905->57|941->67|972->72|1039->119|1085->140|1123->158|1154->163
+                  DATE: Sun Jun 12 22:41:00 BST 2016
+                  SOURCE: C:/Users/Pedro/Documents/GitHub/roplay/ro/app/views/account/link.scala.html
+                  HASH: 324371546a49809449e3ec4d8c3c20c06fcd1dbb
+                  MATRIX: 805->3|866->56|905->58|943->70|974->75|1041->122|1090->146|1128->164|1160->170
                   LINES: 29->2|29->2|29->2|31->4|31->4|31->4|34->7|34->7|35->8
                   -- GENERATED --
               */

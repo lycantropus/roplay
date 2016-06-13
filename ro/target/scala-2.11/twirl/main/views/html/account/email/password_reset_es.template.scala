@@ -54,10 +54,10 @@ Atentamente,<br />
 }
               /*
                   -- GENERATED --
-                  DATE: Sun Jun 12 03:17:22 BST 2016
-                  SOURCE: D:/roplay/ro/app/views/account/email/password_reset_es.scala.html
-                  HASH: d9c684f2d636149a8252a580b9555648676c1df2
-                  MATRIX: 770->1|915->58|942->59|973->65|997->69|1308->353|1333->356
+                  DATE: Sun Jun 12 22:41:00 BST 2016
+                  SOURCE: C:/Users/Pedro/Documents/GitHub/roplay/ro/app/views/account/email/password_reset_es.scala.html
+                  HASH: 4e9d71fcd5ec7f8460272f0ec834b6027bf68f5c
+                  MATRIX: 770->1|915->58|943->60|974->66|998->70|1317->362|1342->365
                   LINES: 26->1|29->1|30->2|30->2|30->2|38->10|38->10
                   -- GENERATED --
               */

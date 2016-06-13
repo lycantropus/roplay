@@ -39,10 +39,10 @@ Seq[Any](format.raw/*1.23*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Sun Jun 12 03:17:19 BST 2016
-                  SOURCE: D:/roplay/ro/app/views/_providerIcon.scala.html
-                  HASH: 3e323c45e0d3e9c254d82b83d46207134eecdc8c
-                  MATRIX: 731->1|840->22|867->23|904->34|935->45|963->46|1003->60|1034->71|1068->79|1082->85|1148->130
+                  DATE: Sun Jun 12 22:41:00 BST 2016
+                  SOURCE: C:/Users/Pedro/Documents/GitHub/roplay/ro/app/views/_providerIcon.scala.html
+                  HASH: 8fdadd07f10aa60738349d4c7646d47a12dd27df
+                  MATRIX: 731->1|840->22|868->24|905->35|936->46|964->47|1004->61|1035->72|1069->80|1083->86|1149->131
                   LINES: 26->1|29->1|30->2|30->2|30->2|30->2|30->2|30->2|30->2|30->2|30->2
                   -- GENERATED --
               */
